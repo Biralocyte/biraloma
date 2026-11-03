@@ -12,7 +12,8 @@ CVJ/WORK/extra_image.webp
 CVJ/WORK/scripts/
 CVJ/WORK/build/
 CVJ/out/
-CVJ/outputs/
+CVJ/outputs/*
+!CVJ/outputs/CVJ_Talk.pptx
 CVJ/build/node_modules/
 CVJ/build/package-lock.json
 CVJ/epos_in/
