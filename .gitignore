@@ -1,0 +1,17 @@
+# Copyrighted source material and derived images/text are kept out of the repo
+CVJ/src/
+CVJ/WORK/*.pdf
+CVJ/WORK/text/
+CVJ/WORK/text_clean/
+CVJ/WORK/pages/
+CVJ/WORK/figs_raw/
+CVJ/WORK/figs_final/
+CVJ/WORK/figs_manual/
+CVJ/WORK/contact/
+CVJ/WORK/extra_image.webp
+CVJ/WORK/scripts/
+CVJ/WORK/build/
+CVJ/out/
+CVJ/outputs/
+CVJ/build/node_modules/
+CVJ/build/package-lock.json

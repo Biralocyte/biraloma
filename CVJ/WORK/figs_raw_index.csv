@@ -1,0 +1,159 @@
+fig_id,source,page,n_images,bbox,native_px,render_px,cs
+chen_p002_f1,chen,2,1,"150,366,374,665",620x830,621x831,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p003_f1,chen,3,1,"35,57,232,249",548x534,549x535,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p003_f2,chen,3,1,"252,57,449,233",548x489,549x490,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p003_f3,chen,3,1,"252,416,449,665",548x692,549x693,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p003_f4,chen,3,1,"35,458,232,655",548x550,549x550,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p004_f1,chen,4,1,"84,57,440,269",988x590,989x590,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p004_f2,chen,4,1,"272,379,469,615",548x657,549x657,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p006_f1,chen,6,1,"55,57,252,201",548x400,549x401,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p006_f2,chen,6,1,"85,449,439,645",984x546,985x547,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p007_f1,chen,7,1,"62,57,422,296",1000x665,1001x666,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p007_f2,chen,7,1,"268,396,434,635",460x664,461x665,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p007_f3,chen,7,1,"48,406,220,645",478x664,479x665,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p008_f1,chen,8,1,"80,57,226,296",405x664,406x665,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p008_f2,chen,8,1,"59,494,465,635",1126x392,1127x392,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p009_f1,chen,9,1,"263,406,439,645",489x664,490x665,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p010_f1,chen,10,1,"84,57,440,244",990x520,991x521,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p010_f2,chen,10,1,"63,468,461,645",1106x492,1107x492,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p011_f1,chen,11,1,"40,57,444,228",1124x475,1125x476,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p011_f2,chen,11,1,"288,406,414,645",350x664,351x665,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p012_f1,chen,12,1,"55,57,252,190",548x370,549x371,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p013_f1,chen,13,1,"35,57,232,286",548x638,549x638,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p013_f2,chen,13,1,"39,529,445,655",1127x350,1128x351,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p014_f1,chen,14,1,"137,57,387,359",696x841,697x842,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p014_f2,chen,14,1,"85,467,439,645",983x496,984x497,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p015_f1,chen,15,1,"36,57,448,221",1143x458,1144x459,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p015_f2,chen,15,1,"37,461,448,655",1141x539,1142x540,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p016_f1,chen,16,1,"120,436,404,645",791x581,792x581,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p017_f1,chen,17,1,"36,57,448,212",1143x430,1144x431,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p017_f2,chen,17,1,"272,420,430,635",440x598,441x599,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p018_f1,chen,18,1,"56,57,468,284",1143x632,1144x633,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p018_f2,chen,18,1,"56,472,468,635",1143x454,1144x455,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p019_f1,chen,19,1,"95,57,389,248",817x532,818x533,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p019_f2,chen,19,1,"99,462,388,655",802x538,803x538,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p020_f1,chen,20,1,"56,57,468,197",1146x389,1147x390,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p020_f2,chen,20,1,"292,418,449,645",435x631,436x631,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p021_f1,chen,21,1,"36,456,448,625",1143x470,1144x470,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p022_f1,chen,22,1,"107,57,417,362",862x848,863x849,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p023_f1,chen,23,1,"37,467,447,625",1140x440,1141x440,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p024_f1,chen,24,1,"57,57,467,219",1138x451,1139x452,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p024_f2,chen,24,1,"58,436,466,635",1131x555,1132x556,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p025_f1,chen,25,1,"61,57,424,218",1008x448,1009x448,"ICCBased(RGB,sRGB IEC61966-2.1)"
+chen_p025_f2,chen,25,1,"36,424,448,615",1143x532,1144x532,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p002_f1,aiims,2,1,"118,286,494,446",500x212,750x318,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p006_f1,aiims,6,1,"69,81,543,364",700x418,948x567,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p008_f1,aiims,8,1,"69,186,543,366",800x304,948x361,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p009_f1,aiims,9,1,"126,123,486,387",479x352,720x529,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p012_f1,aiims,12,1,"69,123,543,251",700x190,948x258,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p012_f2,aiims,12,1,"393,334,611,508",776x620,777x621,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p013_f1,aiims,13,1,"0,147,71,209",242x209,242x210,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p014_f1,aiims,14,1,"69,329,543,478",800x252,948x300,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p016_f1,aiims,16,1,"126,439,486,703",479x353,720x530,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p018_f1,aiims,18,1,"69,123,543,472",700x516,948x699,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p019_f1,aiims,19,1,"126,81,486,346",479x353,720x531,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p020_f1,aiims,20,1,"69,123,543,296",700x256,948x347,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p020_f2,aiims,20,1,"69,345,543,690",700x509,948x691,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p022_f1,aiims,22,1,"69,123,543,296",700x256,948x347,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p022_f2,aiims,22,1,"69,358,543,505",700x217,948x295,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p024_f1,aiims,24,1,"69,123,543,409",700x423,948x573,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p024_f2,aiims,24,1,"69,498,543,636",700x205,948x278,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p028_f1,aiims,28,1,"69,123,543,472",700x516,948x699,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p029_f1,aiims,29,1,"69,81,543,288",700x305,948x414,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p030_f1,aiims,30,1,"126,123,486,387",479x352,720x529,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p033_f1,aiims,33,1,"79,123,533,627",700x776,910x1009,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p035_f1,aiims,35,1,"69,123,543,339",700x320,948x434,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p035_f2,aiims,35,1,"69,375,543,517",700x210,948x285,"ICCBased(RGB,sRGB IEC61966-2.1)"
+aiims_p036_f1,aiims,36,1,"69,81,543,258",700x261,948x355,"ICCBased(RGB,sRGB IEC61966-2.1)"
+youmans_p002_f1,youmans,2,1,"42,496,150,634",450x573,450x574,DeviceRGB
+youmans_p005_f1,youmans,5,6,"75,66,555,390",625x678;639x659;722x659;610x659;736x678;610x678,2004x1353,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+youmans_p008_f1,youmans,8,2,"200,66,483,235",65x89;3938x2343,1702x1013,DeviceRGB;None
+youmans_p010_f1,youmans,10,1,"57,116,273,284",900x698,901x700,"Separation(DeviceCMYK,Black)"
+youmans_p010_f2,youmans,10,1,"63,383,531,661",1951x1159,1952x1160,"ICCBased(RGB,sRGB IEC61966-2.1)"
+youmans_p011_f1,youmans,11,3,"63,66,303,251",595x769;391x360;391x395,1003x772,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+youmans_p012_f1,youmans,12,6,"87,66,507,413",570x715;605x715;545x715;690x715;478x715;552x715,1755x1448,"Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(249,ICCBased(RGB,sRGB IEC61966-2.1));ICCBased(RGB,sRGB IEC61966-2.1);Indexed(250,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(253,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(249,ICCBased(RGB,sRGB IEC61966-2.1))"
+youmans_p012_f2,youmans,12,1,"69,496,525,681",1896x771,1897x772,"Separation(DeviceCMYK,Black)"
+youmans_p013_f1,youmans,13,1,"75,66,555,262",2000x817,2001x818,"Separation(DeviceCMYK,Black)"
+youmans_p013_f2,youmans,13,1,"339,346,555,553",900x860,901x861,"ICCBased(Gray,Generic Gray Gamma 2.2 Profile)"
+youmans_p014_f1,youmans,14,1,"63,66,531,220",1951x643,1952x644,"Separation(DeviceCMYK,Black)"
+youmans_p015_f1,youmans,15,1,"75,66,555,388",2000x1344,2001x1344,"ICCBased(RGB,sRGB IEC61966-2.1)"
+youmans_p016_f1,youmans,16,1,"58,66,536,318",2000x1051,2001x1052,"ICCBased(RGB,sRGB IEC61966-2.1)"
+youmans_p016_f2,youmans,16,4,"57,426,537,618",527x382;630x799;814x799;527x402,2005x802,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+youmans_p017_f1,youmans,17,1,"76,66,554,206",1996x584,1997x585,"Separation(DeviceCMYK,Black)"
+chong_p004_f1,chong,4,2,"47,294,481,501",448x432;449x258,906x433,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p006_f1,chong,6,4,"96,54,432,461",343x406;350x406;352x436;342x437,703x852,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p007_f1,chong,7,4,"103,54,449,453",362x417;323x406;389x404;350x416,722x833,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p008_f1,chong,8,1,"52,54,245,258",400x425,401x426,"Separation(DeviceCMYK,Black)"
+chong_p008_f2,chong,8,1,"49,309,248,524",413x448,414x449,"Separation(DeviceCMYK,Black)"
+chong_p009_f1,chong,9,2,"94,54,458,251",328x412;424x411,762x413,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p010_f1,chong,10,6,"43,54,485,388",305x352;294x350;306x350;297x338;305x338;302x335,924x698,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p011_f1,chong,11,4,"108,54,444,471",343x430;348x430;343x431;348x431,700x869,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p012_f1,chong,12,2,"82,54,446,273",382x457;370x457,761x459,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p012_f2,chong,12,3,"42,312,486,479",302x348;324x348;285x348,929x349,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p013_f1,chong,13,4,"96,54,456,365",394x325;351x321;351x317;394x317,753x651,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p014_f1,chong,14,2,"86,54,442,215",415x335;322x335,745x337,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p015_f1,chong,15,4,"118,27,434,387",297x399;356x398;351x343;298x345,662x754,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p015_f2,chong,15,2,"97,438,455,620",402x379;335x379,746x381,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p017_f1,chong,17,4,"111,54,441,456",331x419;351x418;349x410;328x411,689x840,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p018_f1,chong,18,5,"43,54,485,260",220x430;237x430;240x430;231x246;230x180,925x433,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p019_f1,chong,19,4,"101,54,451,455",367x501;364x501;360x329;360x329,730x839,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p020_f1,chong,20,6,"92,54,435,348",285x257;283x256;356x210;356x141;351x210;351x141,717x616,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p021_f1,chong,21,6,"109,54,443,397",357x201;265x274;285x223;285x223;332x218;332x218,699x718,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p023_f1,chong,23,2,"272,54,451,240",373x195;373x195,374x390,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p023_f2,chong,23,3,"101,54,235,402",275x266;282x260;282x195,283x728,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p023_f3,chong,23,2,"269,275,451,434",254x266;128x332,384x335,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p024_f1,chong,24,6,"42,54,486,423",322x312;286x450;323x452;317x452;312x318;283x311,929x773,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p025_f1,chong,25,4,"106,54,446,393",339x364;363x364;339x336;363x336,711x709,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p026_f1,chong,26,4,"94,54,434,434",341x349;364x450;339x450;359x333,713x795,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p027_f1,chong,27,4,"105,54,447,347",354x334;351x334;365x268;347x270,715x614,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p029_f1,chong,29,4,"106,54,446,402",356x371;375x346;345x348;356x371,711x729,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p030_f1,chong,30,4,"94,54,434,376",344x349;358x349;345x315;357x315,711x673,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p031_f1,chong,31,4,"107,54,445,458",343x426;354x426;344x410;356x407,709x844,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p033_f1,chong,33,6,"55,54,497,377",311x344;287x345;311x341;308x321;294x321;302x322,926x677,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p034_f1,chong,34,6,"44,54,484,338",283x280;330x280;307x280;329x304;307x304;265x304,920x595,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p035_f1,chong,35,4,"108,122,444,504",342x416;342x389;353x389;353x403,703x801,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p036_f1,chong,36,6,"42,136,486,470",275x341;289x339;191x349;191x348;250x348;278x349,930x698,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"
+chong_p037_f1,chong,37,6,"54,54,498,392",325x362;294x362;292x362;319x337;312x338;279x337,927x708,"Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(232,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(252,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(253,ICCBased(RGB,sRGB IEC61966-2.1));Indexed(231,ICCBased(RGB,sRGB IEC61966-2.1))"
+smoker_p001_f1,smoker,1,1,"15,0,597,792",4842x6594,3488x4748,DeviceGray
+smoker_p003_f1,smoker,3,1,"48,58,478,266",896x434,897x434,DeviceRGB
+smoker_p003_f2,smoker,3,1,"49,282,479,482",896x418,897x418,DeviceRGB
+smoker_p003_f3,smoker,3,1,"49,497,262,711",444x446,445x447,DeviceRGB
+smoker_p004_f1,smoker,4,1,"351,59,567,231",450x358,450x358,DeviceRGB
+smoker_p004_f2,smoker,4,1,"362,440,566,597",426x326,427x327,DeviceRGB
+smoker_p005_f1,smoker,5,2,"16,0,596,792",4834x6594;896x394,3482x4748,DeviceGray;DeviceRGB
+smoker_p006_f1,smoker,6,1,"167,243,565,438",828x406,829x407,DeviceRGB
+smoker_p006_f2,smoker,6,2,"132,453,564,639",452x386;444x386,898x387,DeviceRGB;DeviceRGB
+smoker_p007_f1,smoker,7,1,"49,183,253,310",424x264,424x265,DeviceRGB
+smoker_p007_f2,smoker,7,1,"49,326,253,457",424x272,424x273,DeviceRGB
+smoker_p008_f1,smoker,8,1,"361,62,565,302",426x500,427x501,DeviceRGB
+smoker_p009_f1,smoker,9,2,"16,0,596,792",4834x6594;428x382,3482x4748,DeviceGray;DeviceRGB
+smoker_p010_f1,smoker,10,1,"361,165,565,274",426x228,427x229,DeviceRGB
+smoker_p010_f2,smoker,10,1,"131,309,563,473",900x342,900x342,DeviceRGB
+smoker_p011_f1,smoker,11,1,"254,58,447,229",402x358,402x358,DeviceRGB
+smoker_p011_f2,smoker,11,1,"52,317,483,508",898x398,898x399,DeviceRGB
+smoker_p012_f1,smoker,12,1,"131,221,563,383",900x338,900x339,DeviceRGB
+smoker_p012_f2,smoker,12,1,"349,399,562,543",444x300,444x301,DeviceRGB
+smoker_p013_f1,smoker,13,1,"50,58,481,250",898x400,898x401,DeviceRGB
+smoker_p013_f2,smoker,13,1,"51,266,264,390",442x258,442x259,DeviceRGB
+smoker_p013_f3,smoker,13,1,"51,406,264,584",442x370,442x371,DeviceRGB
+smoker_p014_f1,smoker,14,1,"132,58,564,246",900x390,900x391,DeviceRGB
+smoker_p015_f1,smoker,15,1,"51,55,483,251",900x408,900x409,DeviceRGB
+smoker_p015_f2,smoker,15,1,"52,336,483,545",898x436,898x437,DeviceRGB
+smoker_p016_f1,smoker,16,1,"132,55,566,273",904x454,905x455,DeviceRGB
+smoker_p016_f2,smoker,16,1,"131,358,564,576",902x454,903x455,DeviceRGB
+smoker_p017_f1,smoker,17,1,"50,58,481,284",898x472,898x473,DeviceRGB
+smoker_p017_f2,smoker,17,1,"50,299,481,491",898x400,898x401,DeviceRGB
+smoker_p018_f1,smoker,18,1,"133,241,566,417",902x366,902x367,DeviceRGB
+smoker_p019_f1,smoker,19,1,"50,58,480,330",896x566,897x567,DeviceRGB
+smoker_p019_f2,smoker,19,1,"50,344,481,563",898x456,899x457,DeviceRGB
+smoker_p020_f1,smoker,20,1,"360,57,565,156",426x206,427x207,DeviceRGB
+smoker_p020_f2,smoker,20,1,"132,59,341,263",434x426,434x426,DeviceRGB
+smoker_p020_f3,smoker,20,1,"360,172,565,281",426x228,427x229,DeviceRGB
+smoker_p020_f4,smoker,20,1,"359,298,565,449",428x316,429x316,DeviceRGB
+smoker_p021_f1,smoker,21,3,"15,0,597,792",4842x6594;898x444;898x436,3488x4748,DeviceGray;DeviceRGB;DeviceRGB
+smoker_p022_f1,smoker,22,1,"135,58,567,264",900x430,901x431,DeviceRGB
+sutton_p004_f1,sutton,4,1,"77,424,174,530",95x104,194x214,"ICCBased(Gray,Generic Gray Gamma 2.2 Profile)"
+sutton_p009_f1,sutton,9,1,"98,508,488,681",871x388,872x389,"ICCBased(Gray,Generic Gray Gamma 2.2 Profile)"
+sutton_p011_f1,sutton,11,1,"98,320,488,447",870x284,871x284,"ICCBased(Gray,Generic Gray Gamma 2.2 Profile)"
+sutton_p012_f1,sutton,12,1,"98,323,293,627",240x373,392x608,"ICCBased(Gray,Generic Gray Gamma 2.2 Profile)"
+dahnert_p001_f1,dahnert,1,9,"0,12,599,813",989x1013;990x1013;566x1735;989x1012;990x1012;566x1590;989x1013;990x1013;1977x291,2482x3324,"Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black);Separation(DeviceCMYK,Black)"

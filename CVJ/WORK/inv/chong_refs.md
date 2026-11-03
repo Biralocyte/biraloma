@@ -1,0 +1,6 @@
+# Up to 5 references from chong's list (copied as printed) most useful for a CVJ imaging talk
+1. Goel A. Basilar invagination, Chiari malformation, syringomyelia: a review. Neurol India. 2009;57(3):235-246. -- Goel's surgical classification/instability-based management of basilar invagination; key to "what changes surgery".
+2. Menezes AH. Evaluation and treatment of congenital and developmental anomalies of the cervical spine. J Neurosurg. 2004;2:188-197. -- Reducible vs irreducible CVJ anomalies and treatment choice (anterior vs posterior approach); source of the text's management concepts.
+3. Chen YF, Liu HM. Imaging of craniovertebral junction. Neuroimaging Clin N Am. 2009;19(3):483-510. -- The chapter's parent review: more complete CVJ measurements/images than the excerpt.
+4. Anderson LD, D'Alonzo RT. Fracture of the odontoid process of the axis. J Bone Jt Surg Am. 1974;56:1663-1674. -- Origin of the odontoid fracture types I-III used in Box 14.4 (not named in the chapter).
+5. Wu LA, Liu HM, Wang CW, et al. Osteoradionecrosis of the upper cervical spine after radiation therapy for head and neck cancer: differentiation from recurrent or metastatic disease with MR imaging. Radiology. 2012;264:136-145. -- Good MR images and discriminating features for ORN vs tumour at the CVJ.
