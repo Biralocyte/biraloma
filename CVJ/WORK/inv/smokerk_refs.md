@@ -1,0 +1,5 @@
+# smokerk: references worth following (printed list, PDF pp.21-23; list is column-interleaved so author strings were re-assembled)
+1. [69] Pueschel SM, Herndon JH, Gelch MM, Senft KE, Scola FH, Goldberg MJ (1984) Symptomatic atlantoaxial subluxation in persons with Down syndrome. J Pediatr Orthop 4:682-688 - the study cited for "14.6% of 404 children with Down syndrome had AADI>4.5 mm, only 1.5% ... symptomatic"; the pediatric atlantodental interval evidence this review lacks.
+2. [55] Menezes AH (1996) Congenital and acquired abnormalities of the craniovertebral junction. In: Youmans JR (ed) Neurological surgery. Saunders, pp 1035-1089 - neurosurgical management counterpart to this imaging-only review.
+3. [53] McRae DL, Barnum AS (1953) Occipitalization of the atlas. AJR Am J Roentgenol 70:23-46 - McRae is cited but the McRae line is never defined in this paper; this is the origin.
+Also noted: [45] Koenigsberg 2005 AJNR 26:89-92 (modified MR basal angle norms); [102] White 1993 (neural canal width in Down syndrome, MR correlation).

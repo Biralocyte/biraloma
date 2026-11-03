@@ -1,0 +1,17 @@
+# goel - inventory
+
+- Title: "Basilar invagination, Chiari malformation, syringomyelia: A review" (p1)
+- Author: Atul Goel (Professor and Head, Dept of Neurosurgery, K.E.M. Hospital and Seth G.S. Medical College, Parel, Mumbai, India) - single author
+- Year/journal: Neurology India, May-Jun 2009, Vol 57, Issue 3, pp. 235-246 (printed footer: "Neurology India | May-Jun 2009 | Vol 57 | Issue 3"). Section label "Indian Perspective". Accepted on 09-06-2009. Source of support: Nil; conflict of interest: None declared.
+- DOI printed on p1: 10.4103/0028-3886.53260
+- Pages: 12 PDF pages = printed pp. 235-246 (PDF page N = printed page N+234). Letter size.
+- Text layer: yes (digital, Medknow/Persits AspPDF PDF 1.3). Not scanned. Two-column pages interleave in pdftotext -layout; per-page layout text is hard to read on pp. 3-7, so use text_clean and verify against page images.
+- Figures (verified): 7 numbered figures (Fig 7g appears to be a near-duplicate of Fig 7f image); the source splits Fig 1, 2, 6 into a/b and Fig 7 into a-g, giving 16 panels (16 raw images in figs_raw; one-to-one with panels, no merges, none missing). Figure 4 and Figure 5 are line drawings (photographed/scanned, grayscale). Tables: 0. Abstract on p1-2 (unstructured). Reference list 37 refs, pp. 246 (and p. 246 continuing).
+- Conversion problems: none for the raw figs (all 16 mapped correctly to panels; verified against page 3-9 images). Images are grayscale JPEG, 150 ppi, native 337-512 px; six are just under 400 px (see low_res in CSV). Some panels have black rectangles (patient-identifier masking in originals: Fig 3, Fig 7b) and scanner text overlays (Fig 1a "H", 2b/6b/ "L", 6b "Spin -86 Tilt -0", 7b "Sc 4 SE/M SL 5"). Fig 2a "C2"/"C7" level labels. Text interleaving of columns in pdftotext only.
+- Typos/inconsistencies in source (visible): "patiens" (p3); "Line C ... base of C3" in Fig 4 caption vs text "centre of the base of the axis"; Fig 5 image has a letter C (not defined in caption); abstract says "Group A ... Group B" while body also describes older "Group I/II" (1997) classification.
+
+## Quality assessment for the talk
+- Content value: HIGH for Goel Group A/B definitions (instability vs no instability), facet orientation/listhesis concept, surgical consequence (facet distraction + lateral mass fixation without decompression for Group A; foramen magnum bone decompression for Group B). Single-center, retrospective personal series (3300 CVJ patients database; 190 pts in 1997 study; >200 distraction-fixation pts); opinion-heavy review, no tables, few numbers.
+- Craniometry content: modest. Chamberlain line (tip >=2 mm above), McRae, Wackenheim clival line, odontoid-to-pontomedullary distance, Klaus height index, modified omega angle (Fig 4), craniovertebral/cervical height (Fig 5), brainstem girth, atlanto-dental / clivo-dental interval. Most normal values are NOT given (qualitative only).
+- Figures: usable for slides only as low/medium resolution (<=512 px); Figs 1-2 (A vs B MRI/CT) are the key comparison. Line drawings Figs 4-5 are rough (photographed drawings) - redraw recommended. No arrows/asterisks on any image; only letter labels (A,B,C; C2, C7; H; L).
+- Caveats: Group A/B classification is the author's own and its Chamberlain-line statement ("much more severe in Group B") appears counterintuitive; present as author's claim. Surgical claims are single-surgeon, no comparative data in this paper. Date 2009: pre-dates later literature; outside knowledge not used.

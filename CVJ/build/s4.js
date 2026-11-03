@@ -84,4 +84,14 @@ module.exports = [
   'Eser MB, Baysal B, Atalay B, Önal C, Erdemli S. Congenital craniocervical junction anomalies incidentally detected in routine CT and MR evaluation: a pictoral essay. ECR 2018, C-2555. doi:10.1594/ecr2018/C-2555'],
   notes: { cue: 'Do not read out.', script: 'These are the sources; the AIIMS, Chen and Smoker chapters are the main ones for the radiology content, and Youmans for management.',
     source: 'Citation details taken from the source files; details not verifiable in the files (chapter authors of AIIMS and Youmans chapters, page ranges, years where not printed) are omitted. EPOS posters 8–11 were extracted in a separate local session (site blocked here); author names and title spelling as shown on the poster pages (capitalization of “eser”, “erdemli”, “garcia” normalized; “pictoral” kept as printed).' } },
+
+{ type: 'refs', t: 'References (continued)', size: 13, startAt: 12, refs: [
+  'Smoker WRK, Khanna G. Imaging the craniocervical junction. Childs Nerv Syst. 2008;24:1123–1145. doi:10.1007/s00381-008-0601-0',
+  'Deliganis AV, Baxter AB, Hanson JA, Fisher DJ, Cohen WA, Wilson AJ, Mann FA. Radiologic spectrum of craniocervical distraction injuries. RadioGraphics. 2000;20:S237–S250. Erratum: RadioGraphics. 2001;21(2):520.',
+  'Goel A. Basilar invagination, Chiari malformation, syringomyelia: a review. Neurol India. 2009;57(3):235–246. doi:10.4103/0028-3886.53260',
+  'Teegala R, Kumar P, Kale SS, Sharma BS. Craniovertebral junction tuberculosis: a new comprehensive therapeutic strategy. Neurosurgery. 2008;63:946–955.',
+  'Dlouhy BJ, Policeni BA, Menezes AH. Reduction of atlantoaxial dislocation prevented by pathological position of the transverse ligament in fixed, irreducible os odontoideum: operative illustrations and radiographic correlates in 41 patients. J Neurosurg Spine. 2017;27(1):20–28.'],
+  notes: { cue: 'Do not read out.', script: 'Additional journal sources used for the trauma intervals, Goel groups, tuberculosis grading and irreducible os odontoideum.',
+    source: 'Citation details checked against the article PDFs (authors, journal, volume, pages and DOI as printed on each first page).' } },
+
 ];

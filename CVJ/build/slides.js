@@ -2,7 +2,7 @@ const fs=require('fs');
 let all=[];
 for (const p of ['s1','s2','s3','s4','s5']) { if (fs.existsSync(__dirname+'/'+p+'.js')) all=all.concat(require('./'+p+'.js')); }
 // slides moved to Backup for timing (kept with full notes)
-const TO_BACKUP=['Further Lateral-View Indices','Mucopolysaccharidosis','Nerve Sheath Tumor','Grisel Syndrome','Atlas Fracture on CT'];
+const TO_BACKUP=['Further Lateral-View Indices','Mucopolysaccharidosis','Nerve Sheath Tumor','Grisel Syndrome','Atlas Fracture on CT','Basioccipital Hypoplasia','Klippel–Feil Anomaly','Condylar Hypoplasia and Condylus Tertius'];
 const moved=all.filter(s=>TO_BACKUP.includes(s.t));
 all=all.filter(s=>!TO_BACKUP.includes(s.t));
 const bi=all.findIndex(s=>s.type==='section'&&s.t==='Backup Images');

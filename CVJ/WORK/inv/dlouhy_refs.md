@@ -1,0 +1,4 @@
+# Candidate references from dlouhy reference list (all as printed)
+1. Dlouhy BJ, Dahdaleh NS, Menezes AH: Evolution of transoral approaches, endoscopic endonasal approaches, and reduction strategies for treatment of craniovertebral junction pathology: a treatment algorithm update. Neurosurg Focus 38(4):E8, 2015 (ref 5) - treatment algorithm for reducible vs irreducible CVJ pathology; directly supports the surgical-management slide.
+2. Menezes AH: Pathogenesis, dynamics, and management of os odontoideum. Neurosurg Focus 6(6):e2, 1999 (ref 12) - pathogenesis/dynamics of OO; origin and instability concept underlying this paper.
+3. Krakenes J, Kaale BR, Rorvik J, Gilhus NE: MRI assessment of normal ligamentous structures in the craniovertebral junction. Neuroradiology 43:1089-1097, 2001 (ref 11) - normal MRI appearance of the transverse ligament for comparison with the displaced ligament.

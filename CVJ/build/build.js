@@ -85,7 +85,7 @@ slides.forEach((s, idx) => {
       sl.addTable(rows, { x: MX, y: top + 0.15, w: W - 2 * MX, colW: s.colW, border: { type: 'solid', pt: 1, color: '7F7F7F' }, fontFace: FONT, autoPage: false });
       if (s.foot) sl.addText(L.rich(s.foot, { fontFace: FONT, fontSize: 16, color: C.text }), { x: MX, y: H - 0.85, w: W - 2 * MX, h: 0.6, valign: 'bottom', margin: 0 });
     } else if (s.type === 'refs') {
-      const runs = s.refs.map((r, i) => ({ text: r, options: { fontFace: FONT, fontSize: s.size || 14, color: C.text, bullet: { type: 'number' }, breakLine: i < s.refs.length - 1, paraSpaceBefore: 4 } }));
+      const runs = s.refs.map((r, i) => ({ text: r, options: { fontFace: FONT, fontSize: s.size || 14, color: C.text, bullet: { type: 'number', startAt: s.startAt || 1 }, breakLine: i < s.refs.length - 1, paraSpaceBefore: 4 } }));
       sl.addText(runs, { x: MX, y: top + 0.1, w: W - 2 * MX, h: bottom - top - 0.1, valign: 'top', margin: 2 });
     }
   }

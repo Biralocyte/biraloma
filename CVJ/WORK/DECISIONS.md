@@ -36,3 +36,26 @@ Times are Nepal time (NPT).
 - C-2392 images are whole poster slides (720 × 540) with tiny embedded images, so none are used on slides.
 - Captions follow the poster captions (condensed); drawn coloured lines are named in words, and coloured arrows get coloured glyphs (C-2555 Fig 10: green, purple, red).
 - Timing after integration: core 63 slides, about 4,485 script words, about 39.8 min.
+
+## Added journal articles (uploaded Article_PDFs_with_errata.zip)
+- Sources:
+  - Smoker & Khanna 2008 (Childs Nerv Syst)
+  - Deliganis et al. 2000 (RadioGraphics), plus Erratum 2001;21(2):520
+  - Goel 2009 (Neurol India)
+  - Teegala et al. 2008 (Neurosurgery)
+  - Dlouhy et al. 2017 (J Neurosurg Spine)
+- Extraction: one sonnet agent per article, then one verifier per article (workflow).
+- Rank: peer-reviewed journal articles, above the EPOS posters. Where they give values the textbooks lack, they go on the slides; where they disagree with AIIMS, the AIIMS value stays on the slide and the disagreement goes in the Q&A.
+- Erratum: Deliganis Table 3, basion–posterior axial line = "<12 mm posterior to basion, <4 mm anterior to basion" (the corrected wording; the supplied PDF is the online-corrected version). The slide uses the corrected wording, and the Q&A explains the erratum and the body text's opposite phrasing.
+- New core slides:
+  - Normal Intervals at Lateral Radiography (Deliganis Table 3, 5 of 7 rows)
+  - Irreducible Os: Transverse Ligament (Dlouhy Fig 3)
+  - CVJ Tuberculosis: Grade and Treat (Teegala Fig 1)
+  - Grade 3 CVJ Tuberculosis (Teegala Fig 2; the panels were separated so the embedded caption text is excluded, each shown whole)
+- AOD slide: the image is now Deliganis Fig 7 (radiograph with BDI 18 mm, plus bilateral sagittal CT), replacing the Chen mummy CT.
+- Two Developmental Patterns: the "AIIMS term" row was replaced by a "Goel group" row (A: instability, fix C1–C2; B: no instability, decompress). The Goel definitions are quoted in the Q&A.
+- Teegala Fig 1: a thin red page border was trimmed (page furniture).
+- Moved to Backup for timing: Basioccipital Hypoplasia (overlaps Measuring Basilar Invagination), Klippel–Feil Anomaly, Condylar Hypoplasia and Condylus Tertius. New backup slide: Goel Group A and B MRI.
+- Smoker 2008 values went into the Chamberlain, McGregor and Welcher Q&A (≤5 mm, ≤7 mm, platybasia >150°).
+- The references slide is split; the continuation numbers from 12 to 16.
+- Timing: core 65 slides, about 4,586 script words, about 40.7 min.

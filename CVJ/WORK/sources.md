@@ -10,6 +10,14 @@
 - EPOS posters (extracted later in a local session; see epos/): C-2392 Arcalis N et al. ECR 2010 doi:10.1594/ecr2010/C-2392; C-0882 Bermejo AMM et al. ECR 2005 doi:10.1594/ECR05/C-0882; C-2397 Pandit RV et al. ECR 2019 doi:10.26044/ecr2019/C-2397; C-2555 Eser MB et al. ECR 2018 doi:10.1594/ecr2018/C-2555. Rank 7 (below the textbooks): used for images and gaps only. C-2397 and C-2555 have good CT/MR craniometry images; C-2392 images are whole poster slides that are too small to project.
 - Unsourced webp infographic: not used.
 
+- Journal articles added later (rank between the textbooks and the EPOS posters):
+  - Smoker WRK, Khanna G. Childs Nerv Syst 2008;24:1123–1145
+  - Deliganis AV et al. RadioGraphics 2000;20:S237–S250 (+ Erratum 2001;21(2):520)
+  - Goel A. Neurol India 2009;57:235–246
+  - Teegala R et al. Neurosurgery 2008;63:946–955
+  - Dlouhy BJ et al. J Neurosurg Spine 2017;27:20–28
+  Inventories are in inv/<key>.md (keys: smokerk, deliganis, goel, teegala, dlouhy).
+
 ## Per-source inventories (from the extraction agents, verified)
 
 ---
