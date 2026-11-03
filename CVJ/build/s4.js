@@ -70,14 +70,18 @@ module.exports = [
     script: 'To finish, a checklist for every CVJ study. One: where is the dens tip relative to the Chamberlain, McRae and Wackenheim lines. Two: measure the clivus-canal angle and the basal angle, remembering that platybasia alone is asymptomatic but an acute clivus-canal angle compresses the cord. Three: the atlantodental interval, ideally in neutral, flexion and extension. Four: look for assimilation of the atlas, arch clefts, and separate an os odontoideum from a fracture. Five: assess the ligaments, pannus and retro-odontoid tissue. Six: answer the surgeon’s questions — is it reducible, is the compression ventral or dorsal, and is there a Chiari malformation or syrinx. Thank you; I am happy to take questions.',
     source: 'Synthesis of the preceding slides.' } },
 
-{ type: 'refs', t: 'References', size: 13, refs: [
+{ type: 'refs', t: 'References', size: 11, refs: [
   'Chen YF, Liu HM. Imaging of craniovertebral junction. Neuroimaging Clin N Am. 2009;19(3):483–510. doi:10.1016/j.nic.2009.06.002',
   'Khandelwal N, Gupta V. Craniovertebral junction anomalies. In: Gupta AK, Garg A, Sandhu MS, eds. AIIMS-MAMC-PGI’s Comprehensive Textbook of Diagnostic Radiology. 3rd ed. New Delhi: Jaypee Brothers Medical Publishers; 2021. Chapter 208.',
   'Developmental anomalies of the craniovertebral junction and surgical management. In: Winn HR, ed. Youmans & Winn Neurological Surgery. 8th ed. Philadelphia: Elsevier; 2023. Chapter 260, pp. 1959–1972.',
   'Smoker WRK. Craniovertebral junction: normal anatomy, craniometry, and congenital anomalies. RadioGraphics. 1994;14(2):255–277.',
   'Liu HM, Chen YF. Imaging of the craniovertebral junction. In: Chong V, ed. Skull Base Imaging. St. Louis: Elsevier; 2018. Chapter 14 (from p. 291).',
   'Sutton D, Reznek R, Murfitt J; Aggarwal B, adaptation ed. Textbook of Radiology and Imaging. 8th ed. Vol 2. New Delhi: Elsevier (RELX India); 2024.',
-  'Dähnert W; Kale H, SAE ed. Radiology Review Manual. 8th ed. South Asian Edition. Wolters Kluwer Health (India); 2021.'],
+  'Dähnert W; Kale H, SAE ed. Radiology Review Manual. 8th ed. South Asian Edition. Wolters Kluwer Health (India); 2021.',
+  'Arcalis N, Medrano S, Cuadrado M, et al. Craniovertebral junction: pictorial review of the anatomy and pathologic conditions. ECR 2010, C-2392. doi:10.1594/ecr2010/C-2392',
+  'Bermejo AMM, Herraiz LH, Martin MAA, et al. The craniovertebral junction (CVJ): anatomy, bony variants and acquired pathology. ECR 2005, C-0882. doi:10.1594/ECR05/C-0882',
+  'Pandit RV, Bommineni B, Kumar A. Computed tomography evaluation of the craniovertebral junction: what to look for and how? ECR 2019, C-2397. doi:10.26044/ecr2019/C-2397',
+  'Eser MB, Baysal B, Atalay B, Önal C, Erdemli S. Congenital craniocervical junction anomalies incidentally detected in routine CT and MR evaluation: a pictoral essay. ECR 2018, C-2555. doi:10.1594/ecr2018/C-2555'],
   notes: { cue: 'Do not read out.', script: 'These are the sources; the AIIMS, Chen and Smoker chapters are the main ones for the radiology content, and Youmans for management.',
-    source: 'Citation details taken from the source files; details not verifiable in the files (chapter authors of AIIMS and Youmans chapters, page ranges, years where not printed) are omitted. EPOS posters (ECR 2005 C-0882, ECR 2010 C-2392, ECR 2018 C-2555, ECR 2019 C-2397) could not be accessed (network blocked) and are not cited.' } },
+    source: 'Citation details taken from the source files; details not verifiable in the files (chapter authors of AIIMS and Youmans chapters, page ranges, years where not printed) are omitted. EPOS posters 8–11 were extracted in a separate local session (site blocked here); author names and title spelling as shown on the poster pages (capitalization of “eser”, “erdemli”, “garcia” normalized; “pictoral” kept as printed).' } },
 ];

@@ -7,7 +7,7 @@
 4. **Youmans & Winn 8e, Ch 260 (Menezes, Ahmed, Dlouhy), Elsevier 2023.** Management: treatment factors, algorithm, reducibility, traction, Down syndrome, Grisel. High-resolution images.
 5. **Liu HM, Chen YF. Ch 14 in Chong V (ed) Skull Base Imaging, Elsevier 2018.** Newer CT/MR images, two developmental BI patterns, reducible→irreducible progression, retro-odontoid pseudotumor, vascular lesions.
 6. **Sutton 8e Vol 2 (RELX India 2024)** and **Dähnert SAE 8e (Wolters Kluwer India 2021).** Cross-check values only (Dähnert ADI >2.5 mm adult / >4.5 mm child noted in Q&A).
-- EPOS posters: blocked by the network proxy (403); not used, not cited.
+- EPOS posters (extracted later in a local session; see epos/): C-2392 Arcalis N et al. ECR 2010 doi:10.1594/ecr2010/C-2392; C-0882 Bermejo AMM et al. ECR 2005 doi:10.1594/ECR05/C-0882; C-2397 Pandit RV et al. ECR 2019 doi:10.26044/ecr2019/C-2397; C-2555 Eser MB et al. ECR 2018 doi:10.1594/ecr2018/C-2555. Rank 7 (below the textbooks): used for images and gaps only. C-2397 and C-2555 have good CT/MR craniometry images; C-2392 images are whole poster slides that are too small to project.
 - Unsourced webp infographic: not used.
 
 ## Per-source inventories (from the extraction agents, verified)

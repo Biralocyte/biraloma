@@ -1,0 +1,118 @@
+# NOTES
+
+## Coverage
+- All 4 posters fetched: every section page of each (learning objectives, background, findings, conclusion, personal information, references). 104 images downloaded from the real /media/<id> URLs; every file checked by its first bytes (all JPEG) and opened successfully. Original bytes kept (no resizing or re-encoding).
+
+## Naming
+- C-0882: the site's gallery numbering is one behind the printed numbering (the gallery says "Fig. 4: Fig. 5. Craniometric measures..."). Files are named by the PRINTED number (the second one), so F1–F33 match the poster text's (fig. N) references. Printed Fig. 4 (normal anatomy and ligaments) had no gallery number.
+- C-2392: the site gives NO captions (only "Fig. N"), and the gallery numbering has repeats and a gap: two different images are both "Fig. 2" (saved F2a, F2b), two are "Fig. 3" (F3a, F3b), there is no Fig. 6, and one image is unnumbered (Fx299271). Every C-2392 image is a whole poster SLIDE (720x540) with its own title and small text; titles and labels were transcribed into caption_verbatim after "caption_from_image:". Some small print is only partly legible (F4 label boxes, F14 Chiari boxes, F21, F22).
+- C-2392_Fx299271 shows the same embryology slide as C-2392_F2a (not byte-identical).
+
+## Image quality
+- C-2392 slides (all 37): readable as thumbnails of the poster, but the embedded images are small and the slide text is tiny. Poor for projection; better used as a reference or cropped (ask the presenter before cropping).
+- Low resolution (shortest side under 400 px): epos_C-0882_F17 (242x312), epos_C-0882_F28 (360x540), epos_C-0882_F31 (324x540), epos_C-2555_F19 (649x390)
+- Also flagged as blurry or low contrast by the visual check: C-0882_F8 (Welcher angle lines not drawn), C-0882_F31 (very low resolution), C-0882_F33 (blurry Paget radiograph), C-2397_F7 and F9 (tiny green marker lines), C-2555_F4 panel a.
+
+## Caption vs image mismatches (from the visual check of every image)
+- epos_C-0882_F2: Labels only, no pointer symbols
+- epos_C-0882_F3: Labels only; single black leader line to ossiculum terminale
+- epos_C-0882_F4: Caption numbered Fig. 4; no figure for 'normal anatomy' labeled F number
+- epos_C-0882_F5: Caption numbered Fig. 5 vs file F4 (numbering only)
+- epos_C-0882_F6: Caption numbered Fig. 6 (numbering only)
+- epos_C-0882_F7: Panel B asterisk not in caption; caption calls B tomography but both panels look like lateral radiographs; high-riding odontoid not clearly shown
+- epos_C-0882_F8: Welcher basal angle lines not drawn; no pointers; image low contrast
+- epos_C-0882_F9: Caption says A. but image is multi-panel (6) without letters; asterisks are on multiple panels
+- epos_C-0882_F10: No pointers; caption has none
+- epos_C-0882_F11: Clefts not marked by pointers; only letters
+- epos_C-0882_F12: Caption has no pointer; image has black arrowhead
+- epos_C-0882_F13: Arrowhead only on radiograph; CT panels carry no pointers (dashed crosshair lines only)
+- epos_C-0882_F15: Top row shows no arrows; sphenoid extension not marked
+- epos_C-0882_F17: Double-headed arrow in image not named in caption; image tiny (242x312) and low resolution
+- epos_C-0882_F18: Reformatted images are a 3D VR without pointers; arrowhead on radiograph is faint
+- epos_C-0882_F19: Caption order reversed relative to panels (arrowheads on CT lower, asterisks on tomography upper)
+- epos_C-0882_F21: Caption names no pointer; image has one black arrow on radiograph
+- epos_C-0882_F22: Caption names no pointer but image has a black asterisk
+- epos_C-0882_F23: Caption mentions white asterisk for displaced fragment in spinal canal; no asterisk visible, image has white arrowheads instead; caption A/B panel letters not present
+- epos_C-0882_F25: Two asterisks, one per panel
+- epos_C-0882_F26: Caption says tomography, lateral radiograph and reformatted CT; image shows a tomogram/radiograph (top) and 3D VR (bottom); no pointers; tiny image
+- epos_C-0882_F27: No pointers; caption has none
+- epos_C-0882_F28: Caption says arrowS but image has a double-headed arrow, no arrowheads; image small
+- epos_C-0882_F30: Image has a lateral radiograph plus axial CT; caption mentions only axial CT
+- epos_C-0882_F31: No pointers; very low resolution (324x540)
+- epos_C-0882_F32: Caption lists no pointer symbols but image has double-headed arrows and an asterisk; three panels (A plain+flexion, B) while caption has A and B
+- epos_C-0882_F33: Blurry, low contrast
+- epos_C-2392_F1: Caption only 'Fig. N'; title slide, no figure content
+- epos_C-2392_F2a: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; no pointers; colour-coded sclerotome diagram
+- epos_C-2392_F2b: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; no pointers
+- epos_C-2392_F3a: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; letter labels white on dark images, black on light diagram panels
+- epos_C-2392_F3b: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; letter label colour black on light diagram
+- epos_C-2392_F4: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; colours from slide legend/labels
+- epos_C-2392_F5: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; two letter sets (lateral, AP)
+- epos_C-2392_F7: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; colours from slide
+- epos_C-2392_F8: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; colour-coded embryologic diagram only
+- epos_C-2392_F9: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; yellow C/1 labels explained in slide text
+- epos_C-2392_F10: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; arrow target from slide text
+- epos_C-2392_F11: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; colours of lines match text
+- epos_C-2392_F12: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; dots teal/cyan
+- epos_C-2392_F13: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; targets from slide text
+- epos_C-2392_F14: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; targets from slide text
+- epos_C-2392_F15: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; no pointers
+- epos_C-2392_F16: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; classification thumbnails only
+- epos_C-2392_F17: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; panels labelled A-C
+- epos_C-2392_F18: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; only T2/T1 text labels, no pointers
+- epos_C-2392_F19: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; no pointers
+- epos_C-2392_F20: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; text slide, no image
+- epos_C-2392_F21: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; only T1WI/T2WI text labels
+- epos_C-2392_F22: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; only sequence labels
+- epos_C-2392_F23: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; only sequence labels
+- epos_C-2392_F24: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; target from slide title
+- epos_C-2392_F25: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; text slide
+- epos_C-2392_F26: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; flowchart, no pointers
+- epos_C-2392_F27: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; caption text from slide: arrow and arrowheads both green
+- epos_C-2392_F28: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; target from slide text
+- epos_C-2392_F29: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; numbers 1-5 defined in slide text
+- epos_C-2392_F30: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; targets from slide text
+- epos_C-2392_F31: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; numbers defined in slide text
+- epos_C-2392_F32: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; Harris lines drawn black
+- epos_C-2392_F33: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; no other pointers
+- epos_C-2392_F34: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; targets inferred from slide text
+- epos_C-2392_F35: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; targets from slide text
+- epos_C-2392_Fx299271: Caption is only 'Fig. N' (no pointer text); image is a full poster slide; no pointers
+- epos_C-2397_F1: Text labels (TIP OF DENS, C1 ANTERIOR ARCH, C1 POSTERIOR ARCH, SPINOLAMINAR LINE) burned into image; caption does not name C1 anterior/posterior arch separately beyond 'parts of the C1'
+- epos_C-2397_F3: Caption order is dorsum and tuberculum sellae but image lists tuberculum first; image has burned-in text labels
+- epos_C-2397_F4: Caption does not name individual lines; lines are inferred as the crossing basion-posterior arch and opisthion-anterior arch lines
+- epos_C-2397_F5: Small blue square at top of image (artifact); caption does not name the lines
+- epos_C-2397_F6: Caption does not name the lines
+- epos_C-2397_F7: Marker is a tiny green mark, barely visible
+- epos_C-2397_F8: Caption does not name the lines
+- epos_C-2397_F9: Marker is a short thin green line, hard to see
+- epos_C-2397_F10: Caption does not name the lines
+- epos_C-2397_F11: Caption does not name the lines
+- epos_C-2397_F12: Caption does not name the lines
+- epos_C-2555_F1: Caption says 'Sagittal reformatted CT' for (a) but image (a) is mid-sagittal; 'O' (occiput) is placed as an open circle above 'C' in panel b (condyles), not a separate occiput pointer; panel d has no O/N etc.
+- epos_C-2555_F2: Caption says blue but Welcher lines appear cyan/turquoise; otherwise matches
+- epos_C-2555_F4: Caption does not explain the red dotted midline or name the green limbs; panel a image is blurry/low-res MRI
+- epos_C-2555_F5: Caption does not mention the red Chamberlain line or h:13mm in (d)
+- epos_C-2555_F6: Panel e has no pointers; cyan angle in (c) not named by caption beyond 'enlarged Welcher basal angle'; panel e is small and cropped differently from others
+- epos_C-2555_F8: Caption says (a) is mid-sagittal T2 FLAIR MR, but image (a) is a coronal FLAIR MR; each panel shown as unmarked + marked pair; caption mentions widening of angle but not the red lines
+- epos_C-2555_F9: Caption describes (d) as coronal T1W MR but image (d) looks like coronal FLAIR/T2-type; red L. OC/R. OC labels and drawn lines not explained by caption; (a) not named as parasagittal
+- epos_C-2555_F10: Panel d has only the red arrow; caption does not mention green/purple arrows absent in (d); arrows in a-c appear open/outlined in style
+- epos_C-2555_F11: Caption does not name the drawn lines; panel (d) is axial CT but caption does not say so; (c) and (e) have no pointers; layout also differs (e has two 3D views)
+- epos_C-2555_F12: Caption says (c) axial CT and (d) coronal CT, but image (c) is coronal and (d) is axial (swapped); caption does not name the occiput/C1/C2 arrows or measurement lines; arrows in (a) named only implicitly via 'assimilated bone narrow'
+- epos_C-2555_F13: Caption numbers 1-4 (rudimental left lateral mass, transverse processes, posterior arch aplasia, rachischisis) and 1-3 (oblique/posterior views) are not marked on the image; (a) shows four mixed coronal/axial panels and no 1-4 number labels
+- epos_C-2555_F14: Caption has no pointers; image has only text labels in (b); panel (a) shows six serial axial CT images with no labels
+- epos_C-2555_F15: Caption panels (a-d): image (a) axial CT through atlas, (b) 3D inferior view, (c) coronal-looking 3D anterior view of C1/C2 region, (d) axial CT; image resolution lower (948x705)
+- epos_C-2555_F16: Caption says white arrows appear on the mid-sagittal CT (d), but white arrows are on axial (b) and coronal (c) panels; (d) shows a blue angle line not named in caption; panel c shown as coronal oblique with platybasia mentioned but arrows mark dens; (e) no pointers
+- epos_C-2555_F17: Caption has no title entity; (c) is shown as sagittal CT; otherwise pointers match
+- epos_C-2555_F18: Caption lists panels (a.-b.-c.-d.) coronal and a repeated (b.); image shows panels a-d coronal, e sagittal, f axial so the caption is garbled but consistent; no pointers on any panel
+- epos_C-2555_F19: Image is small (649x390); no pointers
+- epos_C-2555_F20: No pointers; caption mentions rudimentary discs at C6-C7 and C7-T1 in coronal T2 (c) but not marked; panels a-b low brightness
+- epos_C-2555_F21: No pointers; (b) T1 MR sagittal; (a) plain radiograph shows a lateral cervical spine; relatively small image
+- epos_C-2555_F22: Caption does not explain the C2/C3/Dens labels or arrows; caption describes condylar hypoplasia, rachischisis etc. not marked on the image
+
+## Content gaps (not in any of the four posters)
+- No condyle–C1 interval measurement, no Redlund-Johnell or Clark station, no rule of Spence by name (6 mm lateral mass overhang is given), no Goel types, no Levine–Edwards, no Traynelis.
+- No CVJ tuberculosis, no crowned dens/CPPD (text or images).
+- C-2397 defines its 11 CT measurements but gives NO normal values or cut-offs.
+- Source disagreements are flagged inside epos_facts.md (ADI thresholds; bimastoid line <10 mm vs <1 mm; Welcher platybasia cut-off >140 vs >143 vs >150).
+- C-0882's Chamberlain/McGregor normal value text is garbled on the poster page ("up to 1mm 3,6 to 6 mm"); copied as printed.

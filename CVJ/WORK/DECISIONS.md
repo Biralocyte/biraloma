@@ -22,3 +22,17 @@ Times are Nepal time (NPT).
 - Numbered and bulleted lists: when a line starts with a red bold key phrase, a zero-width plain run is inserted first so the number or bullet renders black. A buClr element is also added in post-processing.
 - Fonts: Helvetica is specified (renders as Liberation Sans in the Linux check renders). Pointer glyphs use "Apple Symbols", 4 pt larger than the caption; this falls back to DejaVu in the check renders.
 - Pointer glyph mapping: white/gray pointer → gray glyph (7F7F7F); black → black. White outlined block arrows (Chen Figs 20, 27, 38) → open arrow ⇨ gray. Dashed or dotted arrows and "dot" pointers have no glyph equivalent, so their words are kept.
+
+## EPOS integration (after delivery; posters extracted in a separate local session, EPOS_CVJ.zip)
+- Posters: C-2392 (ECR 2010, Arcalis et al.), C-0882 (ECR 2005, Bermejo et al.), C-2397 (ECR 2019, Pandit et al.), C-2555 (ECR 2018, Eser et al.). Rank: below all textbooks and journal sources. They are used for images and for gaps only. Cited in the notes and as references 8–11.
+- Three new core slides:
+  - "The Same Lines on CT and MRI" (C-2555 Fig 2)
+  - "Basion–Dens and Basion–Axial Intervals" (C-2397 Figs 9, 8, with the Harris rule of 12 from C-2392 and C-0882)
+  - "Measuring Basilar Invagination" (C-2555 Fig 7)
+- Four backup slides: Powers ratio and modified Ranawat (C-2397 Figs 4–5; definitions only, no values in any source), AOD radiograph (C-0882 Fig 17; 242 × 312 px, flagged), condylus tertius (C-2555 Fig 10), platybasia (C-2555 Fig 5).
+- The 12 mm Harris value is radiographic (C-0882: "on the lateral radiograph"). C-2397 gives CT definitions without cut-offs; stated in the Q&A.
+- Jefferson slide: key line now includes "lateral masses >6 mm apart" (C-2392 wording). The C-0882 variant ("≥6 mm between odontoid and lateral masses") is in the Q&A.
+- Notes additions: Anderson–Montesano named (C-0882); traction absolutely contraindicated in AOD (C-2392); Anderson & D'Alonzo frequencies and type II nonunion 64% (C-2392); ADI and Welcher poster values added to the Q&A disagreements.
+- C-2392 images are whole poster slides (720 × 540) with tiny embedded images, so none are used on slides.
+- Captions follow the poster captions (condensed); drawn coloured lines are named in words, and coloured arrows get coloured glyphs (C-2555 Fig 10: green, purple, red).
+- Timing after integration: core 63 slides, about 4,485 script words, about 39.8 min.

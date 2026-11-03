@@ -68,6 +68,13 @@ module.exports = [
     figure: 'Chen & Liu Fig. 10 (p.489): no pointers; in-image measurement label (0.97 cm) from the source. AIIMS Fig. 8 (short clivus, clivus-canal angle <150°) moved to Backup: 479 × 353 px, low resolution.',
     source: 'Chen p.486; AIIMS p.16, Fig. 8.' } },
 
+{ type: 'imgtext', t: 'Measuring Basilar Invagination', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/epos_C-2555_F7.png'], imgW: 5.4, capRight: true, capSize: 14, lines: ['Dens **17 mm** above Chamberlain', 'Clivus–canal **128–130°**'], size: 22,
+  cap: ['Basioccipital hypoplasia. (a) Mid-sagittal CT, (b) mid-sagittal T2W: odontoid process above 17 mm on the Chamberlain line (red line, h:17 mm): basilar invagination. (c) Mid-sagittal CT, (d) mid-sagittal T2W: clivus canal angle narrowed (yellow lines, 128° and 130°) and spinal canal stenosis.'],
+  notes: { cue: 'How to put numbers in the report.',
+    script: 'This is how the measurements look in a real report. The dens tip lies 17 millimeters above the Chamberlain line on both CT and T2 MRI, which is basilar invagination, and the clivus-canal angle is narrowed to about 128 to 130 degrees, well below 150, with canal stenosis. Giving both numbers lets the surgeon follow progression and compare after reduction.',
+    figure: 'EPOS C-2555 (ECR 2018) Fig. 7, “Findings” section. Drawn lines named in caption: Chamberlain line = red line with perpendicular labelled h:17 mm; clivus canal angle = yellow lines labelled t:128° (CT) and t:130° (MR). 1281 × 960 px.',
+    source: 'Eser MB et al. ECR 2018, C-2555, doi:10.1594/ecr2018/C-2555. Thresholds: AIIMS Table 1, Smoker p.261.' } },
+
 { type: 'img', t: 'Condylar Hypoplasia and Condylus Tertius', imgs: [F('chen_F12'), F('chong_F14.4')],
   cap: ['Left: occipital condylar hypoplasia; the lateral mass of the atlas fuses with the hypoplastic condyle; the skull base ascends medially, more on the right, causing basilar invagination. Right: condylar dysplasia (condylus tertius); the ossified remnant ', A('→', 'white'), ' is at the distal end of the clivus and fuses to it.'],
   notes: { cue: 'Coronal: skull base should descend medially.',
