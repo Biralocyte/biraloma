@@ -12,7 +12,8 @@ def sheet(files,out,tile=300,cols=5):
         im.paste(t,(x+3,y+3)); d.text((x+3,y+tile),f"{os.path.basename(p)[:-4]} {w}x{h}",fill='red',font=f)
     im.save(out)
 os.makedirs(W+'/contact',exist_ok=True)
-for s in ['chen','aiims','youmans','chong','smoker','sutton','dahnert']:
+import sys
+for s in (sys.argv[1:] or ['chen','aiims','youmans','chong','smoker','sutton','dahnert']):
     fs=sorted(glob.glob(f'{W}/figs_raw/{s}_*.png'))
     for i in range(0,len(fs),15):
         sheet(fs[i:i+15],f'{W}/contact/{s}_{i//15+1}.png')

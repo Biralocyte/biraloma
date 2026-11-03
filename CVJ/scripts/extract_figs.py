@@ -1,6 +1,6 @@
 import fitz, os, csv, sys
 W='/home/user/biraloma/CVJ/WORK'
-srcs=['chen','aiims','youmans','chong','smoker','sutton','dahnert']
+import sys; srcs=sys.argv[1:] or ['chen','aiims','youmans','chong','smoker','sutton','dahnert']
 os.makedirs(W+'/figs_raw',exist_ok=True); os.makedirs(W+'/pages',exist_ok=True)
 rows=[]
 def merge(boxes,gap=8):
@@ -40,5 +40,5 @@ for s in srcs:
             nat_w=sum(i['width'] for i in members) if len(members)>1 else members[0]['width']
             rows.append(dict(fig_id=fid,source=s,page=pn,n_images=len(members),bbox=','.join(f'{v:.0f}' for v in g),native_px=';'.join(f"{i['width']}x{i['height']}" for i in members),render_px=f'{pix.width}x{pix.height}',cs=';'.join(str(i.get('cs-name','')) for i in members)))
     print(s,len([r for r in rows if r['source']==s]))
-with open(W+'/figs_raw_index.csv','w',newline='') as f:
+with open(W+('/figs_raw_index_articles.csv' if sys.argv[1:] else '/figs_raw_index.csv'),'w',newline='') as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)

@@ -1,0 +1,82 @@
+fig_id,source,page,n_images,bbox,native_px,render_px,cs
+goel_p003_f1,goel,3,2,"54,61,297,284",243x223;507x463,508x466,DeviceRGB;DeviceGray
+goel_p003_f2,goel,3,2,"315,63,558,286",243x223;507x465,508x467,DeviceRGB;DeviceGray
+goel_p003_f3,goel,3,2,"54,320,297,543",243x223;507x465,508x467,DeviceRGB;DeviceGray
+goel_p003_f4,goel,3,2,"315,320,558,538",243x218;507x453,508x456,DeviceRGB;DeviceGray
+goel_p004_f1,goel,4,2,"91,61,260,289",169x228;351x474,354x476,DeviceRGB;DeviceGray
+goel_p005_f1,goel,5,2,"313,61,558,324",245x263;510x546,512x550,DeviceRGB;DeviceGray
+goel_p006_f1,goel,6,2,"54,468,297,686",243x218;507x453,508x456,DeviceRGB;DeviceGray
+goel_p007_f1,goel,7,2,"54,490,297,721",243x231;507x482,508x483,DeviceRGB;DeviceGray
+goel_p007_f2,goel,7,2,"315,490,558,703",243x213;507x442,508x446,DeviceRGB;DeviceGray
+goel_p008_f1,goel,8,2,"349,60,511,275",160x214;337x448,338x449,DeviceRGB;DeviceGray
+goel_p008_f2,goel,8,2,"73,61,278,265",205x204;426x425,428x426,DeviceRGB;DeviceGray
+goel_p008_f3,goel,8,2,"80,299,271,489",191x190;396x396,400x399,DeviceRGB;DeviceGray
+goel_p008_f4,goel,8,2,"342,306,531,495",189x189;394x390,396x395,DeviceRGB;DeviceGray
+goel_p008_f5,goel,8,2,"79,523,271,715",192x191;399x399,402x401,DeviceRGB;DeviceGray
+goel_p008_f6,goel,8,2,"340,531,533,714",193x183;400x381,403x383,DeviceRGB;DeviceGray
+goel_p009_f1,goel,9,2,"79,61,272,245",193x183;400x383,404x384,DeviceRGB;DeviceGray
+teegala_p002_f1,teegala,2,1,"315,80,560,275",1024x812,1025x813,DeviceGray
+teegala_p003_f1,teegala,3,2,"315,422,563,665",1033x1011;505x531,1034x1012,DeviceGray;DeviceGray
+teegala_p005_f1,teegala,5,1,"315,79,563,614",1034x2164,1035x2231,DeviceGray
+teegala_p005_f2,teegala,5,4,"49,80,297,428",1032x439;516x511;516x512;516x497,1039x1453,DeviceGray;DeviceGray;DeviceGray;DeviceGray
+teegala_p006_f1,teegala,6,1,"49,80,297,265",1034x769,1035x771,DeviceGray
+teegala_p007_f1,teegala,7,1,"49,81,433,491",1600x1710,1601x1711,DeviceGray
+teegala_p008_f1,teegala,8,1,"51,84,297,281",1027x818,1028x819,DeviceGray
+smokerk_p003_f1,smokerk,3,1,"179,54,545,373",764x666,765x667,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p004_f1,smokerk,4,1,"142,54,454,659",651x1262,652x1262,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p005_f1,smokerk,5,1,"142,386,454,674",651x600,652x601,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p006_f1,smokerk,6,1,"85,339,511,624",888x595,889x596,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p007_f1,smokerk,7,1,"85,54,511,589",888x1115,889x1115,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p008_f1,smokerk,8,1,"85,54,511,336",888x589,889x589,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p009_f1,smokerk,9,1,"85,54,511,460",888x848,889x848,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p010_f1,smokerk,10,1,"142,54,454,216",651x338,652x338,DeviceGray
+smokerk_p010_f2,smokerk,10,1,"85,546,511,694",888x308,889x309,DeviceGray
+smokerk_p011_f1,smokerk,11,1,"142,54,454,200",651x304,652x304,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p011_f2,smokerk,11,1,"87,385,508,655",876x563,877x563,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p012_f1,smokerk,12,1,"92,54,248,438",326x800,327x801,DeviceGray
+smokerk_p013_f1,smokerk,13,1,"142,54,454,309",651x533,652x533,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p013_f2,smokerk,13,1,"85,495,511,652",888x327,889x327,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p014_f1,smokerk,14,1,"85,54,511,352",888x622,889x622,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p014_f2,smokerk,14,1,"78,487,263,674",385x390,386x390,DeviceGray
+smokerk_p014_f3,smokerk,14,1,"333,547,518,704",385x327,386x328,DeviceGray
+smokerk_p015_f1,smokerk,15,1,"142,54,454,345",651x608,652x608,DeviceGray
+smokerk_p016_f1,smokerk,16,1,"51,54,545,395",1030x711,1031x711,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p016_f2,smokerk,16,1,"142,513,454,674",651x336,652x336,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p017_f1,smokerk,17,1,"115,54,481,207",764x319,765x319,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p017_f2,smokerk,17,1,"142,414,454,674",651x542,652x543,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p018_f1,smokerk,18,1,"141,54,454,412",651x747,652x747,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p018_f2,smokerk,18,1,"51,508,545,654",1030x306,1031x306,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p019_f1,smokerk,19,1,"78,54,262,237",384x382,385x383,DeviceGray
+smokerk_p019_f2,smokerk,19,1,"51,503,545,664",1030x337,1031x337,"ICCBased(RGB,sRGB IEC61966-2.1)"
+smokerk_p020_f1,smokerk,20,1,"115,464,481,625",764x335,765x335,"ICCBased(RGB,sRGB IEC61966-2.1)"
+dlouhy_p004_f1,dlouhy,4,1,"105,74,489,454",800x792,801x793,DeviceGray
+dlouhy_p005_f1,dlouhy,5,1,"36,74,276,344",500x562,501x563,DeviceGray
+dlouhy_p006_f1,dlouhy,6,1,"105,74,489,458",800x800,801x801,DeviceCMYK
+dlouhy_p007_f1,dlouhy,7,1,"96,74,480,459",800x803,800x803,DeviceCMYK
+deliganis_p002_f1,deliganis,2,1,"306,63,522,246",900x762,900x762,None
+deliganis_p002_f2,deliganis,2,1,"66,264,216,396",626x548,627x548,None
+deliganis_p002_f3,deliganis,2,1,"236,264,380,408",601x599,602x599,None
+deliganis_p002_f4,deliganis,2,1,"390,264,522,403",549x579,550x579,None
+deliganis_p004_f1,deliganis,4,3,"90,220,522,404",296x383;294x383;294x383,902x383,"Separation(CalRGB,Black);Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p005_f1,deliganis,5,3,"72,63,528,218",333x323;306x323;295x322,953x323,"Separation(CalRGB,Black);Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p006_f1,deliganis,6,2,"222,63,522,254",300x398;315x397,627x399,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p006_f2,deliganis,6,3,"66,272,522,458",307x390;303x390;321x389,952x390,"Separation(CalRGB,Black);Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p007_f1,deliganis,7,3,"72,63,456,303",400x500;392x230;392x230,802x501,"Separation(CalRGB,Black);Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p007_f2,deliganis,7,2,"72,394,432,581",370x390;371x389,752x390,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p007_f3,deliganis,7,2,"72,598,432,734",371x284;369x284,752x285,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p008_f1,deliganis,8,2,"162,63,522,196",365x278;377x277,751x278,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p008_f2,deliganis,8,2,"162,213,522,344",373x273;367x273,751x274,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p008_f3,deliganis,8,1,"330,437,522,566",401x270,402x271,"Separation(CalRGB,Black)"
+deliganis_p009_f1,deliganis,9,2,"72,63,456,199",395x284;397x284,802x285,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p009_f2,deliganis,9,1,"72,217,252,382",375x345,375x345,"Separation(CalRGB,Black)"
+deliganis_p009_f3,deliganis,9,1,"313,343,505,501",400x330,401x331,"Separation(CalRGB,Black)"
+deliganis_p009_f4,deliganis,9,1,"72,417,288,598",450x378,450x379,"Separation(CalRGB,Black)"
+deliganis_p010_f1,deliganis,10,3,"66,63,522,253",307x395;310x395;315x395,951x396,"Separation(CalRGB,Black);Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p010_f2,deliganis,10,1,"372,270,522,453",313x380,314x380,"Separation(CalRGB,Black)"
+deliganis_p010_f3,deliganis,10,1,"329,489,522,687",402x412,403x413,"Separation(CalRGB,Black)"
+deliganis_p011_f1,deliganis,11,2,"72,63,456,203",395x293;397x293,802x293,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p011_f2,deliganis,11,2,"72,262,432,475",372x444;370x445,752x445,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p012_f1,deliganis,12,1,"354,63,522,241",350x370,351x370,"Separation(CalRGB,Black)"
+deliganis_p012_f2,deliganis,12,2,"198,265,522,445",333x376;334x376,677x377,"Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p012_f3,deliganis,12,3,"66,464,522,617",298x321;294x321;339x320,952x321,"Separation(CalRGB,Black);Separation(CalRGB,Black);Separation(CalRGB,Black)"
+deliganis_p013_f1,deliganis,13,1,"72,63,288,249",451x388,452x389,"Separation(CalRGB,Black)"
