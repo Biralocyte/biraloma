@@ -15,6 +15,15 @@ module.exports = [
     qa: 'Q: Where does this classification come from? A: AIIMS presents it citing Gupta SK, Khosla VK, Sharma BS et al., PGI Chandigarh experience, in “Cranio-vertebral junction anomalies: the Indian experience” (1998).',
     source: 'AIIMS p.26 (verbatim condensed).' } },
 
+{ type: 'imgtext', t: 'Atlantoaxial Dislocation: Four Causes', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/sen_aad_grid.png'], imgW: 5.0, capRight: true, capSize: 14, size: 19,
+  cap: ['Increased atlantodens interval (red line) in each. Top left, spontaneous: lateral radiograph, 38-year-old woman. Top right, trauma: sagittal CT, 20-year-old man, type 2 dens fracture with irregular margins ', A('→', 'yellow'), '. Bottom left, rheumatoid arthritis: 47-year-old woman with basilar impression and sclerosis of the atlantoaxial joint ', A('→', 'yellow'), '. Bottom right, tuberculosis: 18-year-old woman, retropharyngeal collection ', A('→', 'blue'), ', lytic area in the dens ', A('→', 'yellow'), '.'],
+  lines: ['ADI: **>3 mm** adults, **>4 mm** children', 'Then: **cause**, **reducible**?'],
+  notes: { cue: 'Same measurement, four different diseases.',
+    script: 'Atlantoaxial dislocation is one finding with many causes, and the same interval measurement applies to each. Here are four: a spontaneous case on a plain radiograph, a type II dens fracture, rheumatoid arthritis with basilar impression and joint sclerosis, and tuberculosis with a retropharyngeal collection and a lytic dens. The cause changes the treatment, and the dynamic study tells us whether it is reducible.',
+    figure: 'Senior’s deck: “Radiological Approach to Craniovertebral Junction Anomalies” (IRIA e-poster, abstract IRIA-1251; SlideShare “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022), slide 19, four panels arranged 2 × 2 without resizing. Atlantodens interval = short red drawn line (named) in all four; dens fracture margin = yellow arrow (→ yellow); RA joint sclerosis = yellow arrow (→ yellow); TB retropharyngeal collection = blue arrow (→ blue; the slide’s caption key says yellow but the image arrow is blue); lytic dens = yellow arrow (→ yellow). About 330 × 290 px each (low resolution, flagged).',
+    qa: 'Q: Pediatric cut-off — the senior slide says 5 mm? A: Sources differ: AIIMS >4 mm (slide), Deliganis text <5 mm in children under 9 years, Youmans up to 5 mm normal in a child, Dähnert >4.5 mm. Slide keeps AIIMS.',
+    source: 'Cut-offs: AIIMS p.25. Images and case details: Senior’s deck: “Radiological Approach to Craniovertebral Junction Anomalies” (IRIA e-poster, abstract IRIA-1251; SlideShare “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022).' } },
+
 { type: 'text', t: 'Factors That Decide Treatment', lines: [
   { t: '**Reducibility**: can alignment be restored?', num: true },
   { t: '**Direction of encroachment**: ventral or dorsal', num: true },
@@ -93,7 +102,8 @@ module.exports = [
   'Dlouhy BJ, Policeni BA, Menezes AH. Reduction of atlantoaxial dislocation prevented by pathological position of the transverse ligament in fixed, irreducible os odontoideum: operative illustrations and radiographic correlates in 41 patients. J Neurosurg Spine. 2017;27(1):20–28.',
   'Osborn AG, Linscott LL, Salzman KL. Posterior fossa malformations. In: Osborn’s Brain: Imaging, Pathology, and Anatomy. 3rd ed. Elsevier.',
   'Osborn AG. Essentials of Osborn’s Brain: A Fundamental Guide for Residents and Fellows. 1st ed. Elsevier; 2020.',
-  'Nadgir R, Lin D, Yousem DM, eds. Congenital anomalies of the central nervous system. In: Neuroradiology: The Core Requisites. 5th ed. Elsevier; 2025.'],
+  'Nadgir R, Lin D, Yousem DM, eds. Congenital anomalies of the central nervous system. In: Neuroradiology: The Core Requisites. 5th ed. Elsevier; 2025.',
+  'Radiological approach to craniovertebral junction anomalies (IRIA e-poster, abstract IRIA-1251). SlideShare: “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022. Images only.'],
   notes: { cue: 'Do not read out.', script: 'Additional journal sources used for the trauma intervals, Goel groups, tuberculosis grading and irreducible os odontoideum.',
     source: 'Citation details checked against the article PDFs (authors, journal, volume, pages and DOI as printed on each first page).' } },
 

@@ -20,13 +20,14 @@ module.exports = [
   notes: { cue: 'Ten seconds.', script: 'This is the plan for today.', source: 'Outline of Part 2.' } },
 
 // ---------- Recap (4 slides)
-{ type: 'imgtext', t: 'Recap: Craniometric Lines', imgs: [F('youmans_F260.3')], imgW: 5.0, capSize: 14, size: 20,
-  cap: ['Lateral craniometry with points of reference. (1) Wackenheim’s clivus canal line; (2) Chamberlain line; (3) McRae line; (4) McGregor line; (5) Height index of Klaus; (6) Spinous interlaminar line.'],
-  lines: ['**Chamberlain**: dens tip below', '**McRae**: dens tip not above', '**Wackenheim**: dens tangent or ventral', '**Clivus–canal** 150–180°', '**Basal angle** 124–142°'],
-  notes: { cue: 'Thirty seconds: the five measurements.',
-    script: 'A one-minute reminder. Chamberlain’s line runs from the hard palate to the opisthion; the odontoid bisects it in basilar invagination. McRae’s line is the foramen magnum line, from basion to opisthion; the dens tip does not exceed it. Wackenheim’s line runs along the clivus; the dens is tangent or ventral, and transects it in basilar invagination. The clivus-canal angle is 150 degrees in flexion to 180 in extension, and below 150 ventral cord compression may occur. The basal angle is 124 to 142 degrees; widening is platybasia.',
-    figure: 'Youmans & Winn Fig. 260.3 (p.1962), as in Part 1. Circled numbers 1–6 on a line drawing (black lines).',
-    source: 'Part 1 slides (AIIMS Table 1; Smoker 1994; Chen 2009; Youmans Ch 260).' } },
+{ type: 'imgtext', t: 'Recap: Craniometric Lines', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/sen_lines_grid.png'], imgW: 5.4, capRight: true, capSize: 14, size: 19,
+  cap: ['Sagittal CT. Top left: Chamberlain’s line (red line), posterior hard palate to opisthion. Top right: McRae’s line (yellow line), basion to opisthion. Bottom left: Wackenheim’s line (yellow line) along the dorsal clivus. Bottom right: clivus–canal angle (yellow lines).'],
+  lines: ['Chamberlain, McRae: **dens tip below**', 'Wackenheim: **tangent or ventral**', 'Clivus–canal **150–180°**', 'Basal angle **124–142°**'],
+  notes: { cue: 'Thirty seconds: the lines on a normal CT.',
+    script: 'A one-minute reminder, now on a normal sagittal CT. Chamberlain’s line runs from the posterior hard palate to the opisthion, and McRae’s line from the basion to the opisthion; the dens tip lies below both, and bisects Chamberlain’s line in basilar invagination. Wackenheim’s line runs along the dorsal clivus; the dens is tangent or ventral to it. The clivus-canal angle between Wackenheim’s line and the posterior vertebral body line is 150 to 180 degrees; below 150, ventral cord compression may occur. The basal angle is 124 to 142 degrees; widening is platybasia.',
+    figure: 'Senior’s deck: “Radiological Approach to Craniovertebral Junction Anomalies” (IRIA e-poster, abstract IRIA-1251; SlideShare “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022), slides 4, 5 and 7 (figures cropped from the slides; same normal patient), arranged 2 × 2 without resizing. Drawn lines named in the caption: Chamberlain = red line; McRae, Wackenheim and clivus–canal angle = yellow lines. About 505 × 425 px each. Values on this slide come from the primary sources, not from the senior’s slides (which state Chamberlain and McGregor normals as distances “below” the line and give Welcher 132–140°, >143° abnormal).',
+    qa: 'Q: How far above Chamberlain is still normal? A: Sources differ (Part 1 notes): Smoker & Khanna 2008 and Chong: no more than 5 mm above; Youmans: at most 3 to 5 mm above; Goel: basilar invagination when the tip is at least 2 mm above.',
+    source: 'Part 1 slides (AIIMS Table 1; Smoker 1994; Chen 2009). Images: Senior’s deck: “Radiological Approach to Craniovertebral Junction Anomalies” (IRIA e-poster, abstract IRIA-1251; SlideShare “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022).' } },
 
 { type: 'img', t: 'Recap: Intervals', imgs: [F('deliganis_F2')], capSize: 14, size: 22,
   cap: ['Normal relationships: basion-dens interval (a), posterior axial line drawn along the posterior cortex of the axis (b), and basion–posterior axial line interval (c); horizontal line in c = range of acceptable basion positions.'],
@@ -98,6 +99,15 @@ module.exports = [
     figure: ESS + ', Fig. 36-5A–D (PDF p.6), shown whole as printed (2 × 2). Same images as main-book end-of-chapter figures (PDF p.29–32). A: tonsil = white arrow (→ gray), folia = black open arrow (⇨ black), syrinx septations = white curved arrow (↷ gray), fastigium = black arrow (→ black), nucleus gracilis = white open arrow (⇨ gray). B: tonsils = white arrow, medulla = white open arrow. C: syrinx = white arrow. D: anterior flow = white arrow, absent posterior flow = white open arrow. 750 × 750 px per panel.',
     qa: 'Q: Syrinx frequency differs between books? A: Osborn: 40–80% of symptomatic CM1 undergoing surgery. Requisites: syringohydromyelia in 12% to 23% (all CM1). The difference reflects symptomatic surgical cases versus all patients.',
     source: OSB + ', Etiology and MR Findings (PDF p.4, p.6–7); ' + REQ + ' (PDF p.7).' } },
+
+{ type: 'imgtext', t: 'Chiari 1 with a Bony CVJ Anomaly', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/sen_slide18_fig2-chiari-sagittal-T2-MRI.jpg'], imgW: 4.6, capSize: 15, size: 21,
+  cap: ['Sagittal T2, 16-year-old: herniated tonsils ', A('→', 'yellow'), ', acute clivus–canal angle (red lines), short clivus ', A('→', 'blue'), ' and cervical cord compression.'],
+  lines: ['Bone CT: **shallow posterior fossa**, **short clivus**', 'CVJ **assimilation** anomalies', 'Measure the **clivus–canal angle** too'],
+  notes: { cue: 'Link Chiari back to Part 1: look at the bone.',
+    script: 'Chiari 1 is often a bone problem. Osborn describes the primary problem as a size mismatch between the bony posterior fossa and the cerebellum, and bone CT often shows a combination of an undersized, shallow posterior fossa, a short clivus and craniovertebral junction assimilation anomalies. Requisites adds that there may be basilar invagination or a missing odontoid tip. In this patient the clivus is short and the clivus-canal angle is acute, with cord compression, so the report should include the Part 1 measurements, not just the tonsil position.',
+    figure: 'Senior’s deck: “Radiological Approach to Craniovertebral Junction Anomalies” (IRIA e-poster, abstract IRIA-1251; SlideShare “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022), slide 18 (right panel). Herniated tonsils = yellow arrow (→ yellow); short clivus = thin blue arrow (→ blue); clivus–canal angle = red drawn lines (named). Viewer label “[H]” burned into the image. 461 × 411 px.',
+    clinical: 'Chiari 1 with basilar invagination or an acute clivus–canal angle is a ventral compression problem: say so, because it changes the operation (Part 1: ventral decompression first in irreducible ventral compression).',
+    source: 'Osborn’s Brain 3e Ch 41, Etiology and CT Findings (PDF p.3, p.6); Neuroradiology: The Core Requisites 5e Ch 8, Chiari I (PDF p.6). Image: Senior’s deck: “Radiological Approach to Craniovertebral Junction Anomalies” (IRIA e-poster, abstract IRIA-1251; SlideShare “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022).' } },
 
 { type: 'text', t: 'Chiari 1 Mimics', lines: [
   'Normal low tonsils: **rounded**, normal CSF',

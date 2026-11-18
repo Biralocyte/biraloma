@@ -84,3 +84,22 @@ Times are Nepal time (NPT).
 - Restored from Backup for Part 2: Atlas Fracture on CT, Grisel Syndrome.
 - Part 2 timing: about 30.3 min of core script (slides 37–84), leaving time for questions within the 50-min limit.
 - Disagreement noted in the notes: syrinx 40–80% of symptomatic surgical CM1 (Osborn) vs 12–23% (Requisites).
+
+## Senior's SlideShare deck (CVJ_lines_and_angles_bundle.zip)
+- Source: "Radiological Approach to Craniovertebral Junction Anomalies", IRIA e-poster IRIA-1251, SlideShare "CVJ lines and angles", uploaded by Srinath Chowdary on 26 Dec 2022. Ranked below every other source: I took images only, and no values.
+- Text not taken, because of errors or disagreements with the primary sources:
+  - Chamberlain and McGregor normals given as "less than 5/7 mm below" (the sources say no more than 5/7 mm above).
+  - Welcher 132–140° normal and >143° abnormal (AIIMS: 124–142°).
+  - Child ADI 5 mm (AIIMS: >4 mm; noted in the Q&A).
+  - Klaus "tuberculum cruciate line" (the correct line is the tuberculum–torcular line).
+  - Welcher and Boogaard listed under the frontal projection.
+  - Mislabeled sub-heading on slide 14.
+- Used, with all values from the primary sources:
+  - Recap: Craniometric Lines. The line diagram was replaced by four normal sagittal CT panels (slides 4, 5, 7), arranged 2 × 2 without resizing.
+  - New core slide "Chiari 1 with a Bony CVJ Anomaly" (slide 18 MRI). The text comes from Osborn Ch 41 and Requisites.
+  - New core slide "Atlantoaxial Dislocation: Four Causes" (slide 19 panels: spontaneous, trauma, RA, TB). The TB arrow is blue in the image; the slide's own key says yellow, so I followed the image.
+  - New backup slide "Coronal Lines on CT" (slides 6 and 8), with values from AIIMS and Smoker.
+- Not used: pathology panels that duplicate better-labelled figures already in the deck (assimilation, condylus tertius, os odontoideum, arch anomalies, Jefferson).
+- Cited as reference 20, marked "Images only".
+- Slides 1–36 are unchanged; a pixel comparison found zero differences.
+- Part 2 now runs about 31.7 min of script.
