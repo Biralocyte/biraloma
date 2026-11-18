@@ -103,3 +103,29 @@ Times are Nepal time (NPT).
 - Cited as reference 20, marked "Images only".
 - Slides 1–36 are unchanged; a pixel comparison found zero differences.
 - Part 2 now runs about 31.7 min of script.
+
+## MSK Requisites, Greenberg, and the os vs ossiculum terminale request
+- New sources:
+  - Manaster, May & Disler, Musculoskeletal Imaging: The Requisites, 4th ed (2013): Ch 9 spine trauma (normal variants), Ch 17 RA (C-spine), Ch 43 (Klippel-Feil). Two embedded web screenshots on PDF p.4 (a cervical-instability blog) were not used: not part of the book.
+  - Greenberg, Handbook of Neurosurgery, Ch 70 (Occiput to C2). Used to verify and add trauma classifications and measurements.
+- Already covered in Part 1 (presented): os odontoideum, ossiculum terminale, os vs fracture. Part 2 adds:
+  - "Normal Variants That Mimic Fracture": MSK Fig 9-3 synchondrosis, plus Greenberg Fig 70.6 os odontoideum with flexion/extension Δ, which replaces the MSK Fig 9-4E/F pair.
+  - On the user's request: "Ossiculum Terminale vs Os Odontoideum" (Smoker 1994 Fig 27 stacked above Chong Fig 14.10, no resizing) and the table slide "Telling Them Apart" (a presenter summary of Smoker 1994, Smoker & Khanna 2008, Chen, Chong, Youmans, Greenberg, AIIMS). The AIIMS nuance (ossiculum terminale listed under AAI group II) is in the Q&A.
+- Occipital condylar hypoplasia: new core slide with EPOS C-2555 Fig 8. The legend says "mid-sagittal" for panel a, but the image is coronal; the caption follows the image.
+- Klippel–Feil: new core slide with MSK Fig 43-21A–D. The fusion/Sprengel slide (Figs 43-22/43-23) is in Backup.
+- RA: two new core slides from MSK Ch 17: atlantoaxial subluxation (Fig 17-16) and atlantoaxial impaction/cranial settling (Fig 17-17). MSK gives an AAS cut-off of >2.5 mm (often asymptomatic until ~9 mm); the slide keeps AIIMS >3 mm and the Q&A explains the difference.
+- Greenberg additions:
+  - AOD measurement table (Table 70.1/70.2): BDI CT <8.5 mm adult, condyle–C1 interval CT <1.4 mm adult, Powers ratio <0.9 / ≥1. This fills the earlier Powers ratio and condyle–C1 gaps.
+  - Landells C1 table plus TAL assessment: Spence ≥7 mm, called inaccurate; MRI; Dickman types.
+  - Levine–Edwards hangman table with Fig 70.3.
+  - Fielding–Hawkins rotatory fixation, illustrations arranged 2 × 2.
+  - Odontoid type IIA and surgical criteria in the notes.
+- Jefferson key line changed from the EPOS ">6 mm apart" to "check the transverse ligament on MRI". The 6 vs 7 mm disagreement is in the Q&A, and Greenberg ranks above EPOS.
+- Moved to Backup for timing:
+  - Atlas Fracture on CT (superseded by Landells)
+  - Grisel Syndrome (content in the Fielding–Hawkins notes)
+  - Single-Level Fusion and Sprengel
+  - Chiari 3
+  - Type 3 Odontoid Fracture on MRI
+- Part 2 script is about 37 min. Slides 1–36 are unchanged (pixel comparison).
+- New notes are written in my own condensed wording with short source quotes, citing chapter/section and page.

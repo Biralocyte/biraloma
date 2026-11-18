@@ -1,5 +1,6 @@
 // Part 2 opening: title, outline, recap of Part 1, Chiari malformations, ponticulus posticus
 const F = id => '/home/user/biraloma/CVJ/WORK/figs_final/' + id + '.png';
+const MSK = 'Manaster BJ, May DA, Disler DG. Musculoskeletal Imaging: The Requisites, 4th ed (Elsevier 2013)';
 const A = (g, c) => ({ g, c });
 const OSB = 'Osborn AG, Linscott LL, Salzman KL. Osborn’s Brain: Imaging, Pathology, and Anatomy, 3rd ed, Ch 41 Posterior Fossa Malformations';
 const ESS = 'Osborn AG. Essentials of Osborn’s Brain, 1st ed (2020), Ch 36';
@@ -11,7 +12,7 @@ module.exports = [
     source: 'Structure of Part 2.' } },
 { type: 'text', t: 'Outline: Part 2', lines: [
   { t: 'Recap of Part 1', num: true },
-  { t: 'Chiari malformations and ponticulus posticus', num: true },
+  { t: 'Chiari and other congenital anomalies', num: true },
   { t: 'Trauma', num: true },
   { t: 'Inflammatory, degenerative and infective disease', num: true },
   { t: 'Neoplasms', num: true },
@@ -54,7 +55,7 @@ module.exports = [
     source: 'Part 1 slides (Chen Table 4; AIIMS p.19, p.23; Dlouhy 2017).' } },
 
 // ---------- Chiari section
-{ type: 'section', num: '2', t: 'Chiari Malformations and Ponticulus Posticus', notes: { cue: 'Section change.', script: 'Chiari malformations sit right at the craniovertebral junction and often coexist with the bony anomalies from Part 1.' } },
+{ type: 'section', num: '2', t: 'Chiari and Other Congenital Anomalies', notes: { cue: 'Section change.', script: 'Chiari malformations sit right at the craniovertebral junction and often coexist with the bony anomalies from Part 1. After Chiari, three congenital anomalies we did not reach last time: condylar hypoplasia, Klippel–Feil and ponticulus posticus.' } },
 
 { type: 'table', t: 'Three Chiari Malformations', colW: [1.8, 3.6, 3.6], fs: 19,
   rows: [['Type', 'Defining feature', 'Key association'],
@@ -160,6 +161,35 @@ module.exports = [
     figure: ESS + ', Figs. 36-11A, 36-11B and 36-12 (PDF p.10). 36-11A: cephalocele = white open arrow (⇨ gray); dysplastic brain = black arrows (→ black). 36-11B: lateral ventricles = white arrows (→ gray). 36-12: occipital bone = black open arrow (⇨ black); cervical spine = black arrows (→ black). 750 × 750 px each.',
     clinical: 'Report what lies in the sac: brainstem, 4th ventricle, vessels (venous and arterial structures can be pulled into the defect).',
     source: OSB + ', Chiari 3 (PDF p.14–15).' } },
+
+{ type: 'imgtext', t: 'Occipital Condyle Hypoplasia', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/epos_C-2555_F8_trim.png'], imgW: 5.6, capRight: true, capSize: 14, size: 19,
+  cap: ['Condylar hypoplasia: (a) coronal MR and (b) coronal CT, each shown without and with the measurement: widened atlanto-occipital joint axis angle (red lines; 148° and 158°).'],
+  lines: ['Skull base **flat or rises medially**', 'Joint axis angle **>124–127°**', 'Basilar invagination', 'Vertebral artery compression'],
+  notes: { cue: 'Coronal view: the skull base should slope down toward the midline.',
+    script: 'In occipital condyle hypoplasia the condyles are small and flat, so instead of sloping down toward the midline the skull base is flat or even rises medially. That widens the atlanto-occipital joint axis angle beyond its normal 124 to 127 degrees and causes basilar invagination; the C1 lateral masses may also fuse with the condyles, making it worse. Clinically it limits atlanto-occipital motion and can compress the vertebral artery when the occiput glides backward on C1. The coronal CT is the key view, so measure the joint axis angle whenever basilar invagination is found.',
+    iftime: 'Chen & Liu Fig. 12 (Backup, “Condylar Hypoplasia and Condylus Tertius”) shows the C1 lateral mass fused to a hypoplastic condyle. Related occipital anomalies in Backup: condylus tertius (a proatlas remnant at the lower clivus, associated with os odontoideum) and basioccipital hypoplasia (short clivus).',
+    figure: 'EPOS C-2555 (ECR 2018) Fig. 8; drawn red lines with angle labels t:148° and t:158° (named). The poster legend calls panel a a mid-sagittal FLAIR image, but the image is coronal; caption follows the image. 1280 × 960 px; uniform black poster background trimmed (no image content removed).',
+    clinical: 'Report the joint axis angle and any condyle–C1 fusion: both bear on posterior fixation planning.',
+    source: 'Chen & Liu 2009 p.488–489; Smoker 1994 p.261 (normal angle); Chong Ch 14 p.293. Image: Eser MB et al. ECR 2018 C-2555.' } },
+
+{ type: 'img', t: 'Klippel–Feil: Failed Segmentation', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/msk_p025_2.png', '/home/user/biraloma/CVJ/WORK/figs_final/msk_p025_3.png', '/home/user/biraloma/CVJ/WORK/figs_final/msk_p025_5.png', '/home/user/biraloma/CVJ/WORK/figs_final/msk_p025_4.png'], capSize: 14, size: 20,
+  cap: ['Klippel–Feil syndrome. (A, B) Lateral radiographs in two patients: absent segmentation of several cervical segments ', A('→', 'white'), '. (C) Sagittal T2 in a different patient ', A('→', 'white'), '. (D) Sagittal CT in a different patient: degenerative change at the C3–C4 disk, which takes the motion normally shared by several disks.'],
+  lines: ['Failure of segmentation at **multiple levels**', 'Classic triad (short neck, low hairline, limited motion) in **<50%**', 'Adjacent disks **degenerate**; C1–C2 at risk if fused above'],
+  notes: { cue: 'Fused blocks shift the motion to the remaining levels.',
+    script: 'Klippel–Feil syndrome is failure of segmentation of the cervical spine at several levels. Neck motion is limited because there are few normal disks and facet joints, and the classic triad of short neck, low hairline and limited motion is present in fewer than half of patients. The disks next to a fused block take extra load and degenerate early, as in panel D. At the craniovertebral junction, fusion combined with assimilation of the atlas puts the atlantoaxial joint at risk of early instability, which is why it belongs in this talk.',
+    iftime: 'Associations include renal, spinal cord and ear anomalies (MSK Requisites), scoliosis, Sprengel deformity, congenital heart disease and hearing loss (Chen). AIIMS: fusions most often at C2–C3 and C5–C6; often with basilar invagination, atlas assimilation, odontoid hypoplasia, platybasia and Chiari I.',
+    figure: 'MSK Requisites 4e Fig. 43-21A–D (p.510). White arrows (→ gray) mark the fused segments in A–C; D has no pointer. Panels shown whole in letter order; about 360 × 560 px each.',
+    clinical: 'With a fused C2–C3 block plus assimilation of C1, check the ADI in flexion: the atlantoaxial joint is doing all the work (Chen, AIIMS).',
+    source: MSK + ', Ch 43 Spine Disorders, Klippel-Feil syndrome (p.509–510); Chen & Liu 2009 p.492–493; AIIMS p.30.' } },
+
+{ type: 'img', t: 'Single-Level Fusion and Sprengel', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/msk_p025_6.png', '/home/user/biraloma/CVJ/WORK/figs_final/msk_p025_7.png'], capSize: 15, size: 20,
+  cap: ['Left: absent segmentation at C5–C6 ', A('→', 'white'), '; the narrow AP dimension of the fused bodies distinguishes it from a mature surgical fusion. Right: Sprengel deformity; the right scapula ', A('→', 'white'), ' sits higher than the left, with upper thoracic segmentation anomalies and scoliosis.'],
+  lines: ['Congenital fusion: **narrow (waisted)** AP dimension', 'Sprengel deformity in **~1/3** of Klippel–Feil'],
+  notes: { cue: 'Two quick pearls.',
+    script: 'Two pearls. First, the term Klippel–Feil is also used loosely for any congenital cervical fusion, which is most often a single asymptomatic level; congenitally fused bodies are short in the AP dimension, which separates them from a solid surgical fusion. Second, about a third of patients with Klippel–Feil syndrome have a Sprengel deformity, where the scapula is tethered high by a fibrous band or an omovertebral bone.',
+    figure: 'MSK Requisites 4e Figs. 43-22 and 43-23 (p.510). White arrows (→ gray). 456 × 501 and 684 × 486 px.',
+    qa: 'Q: Differential of a single fused level? A: MSK Requisites notes juvenile rheumatoid arthritis can look similar but usually involves more levels; surgical fusion has normal AP dimension.',
+    source: MSK + ', Ch 43, p.509–510.' } },
 
 { type: 'imgtext', t: 'Ponticulus Posticus', imgs: [F('chong_F14.8')], imgW: 3.6, capSize: 14, size: 21,
   cap: ['(A) Complete type; (B) calcified type; (C) bilateral involvement ', A('→', 'black'), '; (D) the vertebral artery goes through the ponticulus posticus ', A('→', 'white'), '.'],

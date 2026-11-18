@@ -103,7 +103,9 @@ module.exports = [
   'Osborn AG, Linscott LL, Salzman KL. Posterior fossa malformations. In: Osborn’s Brain: Imaging, Pathology, and Anatomy. 3rd ed. Elsevier.',
   'Osborn AG. Essentials of Osborn’s Brain: A Fundamental Guide for Residents and Fellows. 1st ed. Elsevier; 2020.',
   'Nadgir R, Lin D, Yousem DM, eds. Congenital anomalies of the central nervous system. In: Neuroradiology: The Core Requisites. 5th ed. Elsevier; 2025.',
-  'Radiological approach to craniovertebral junction anomalies (IRIA e-poster, abstract IRIA-1251). SlideShare: “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022. Images only.'],
+  'Radiological approach to craniovertebral junction anomalies (IRIA e-poster, abstract IRIA-1251). SlideShare: “CVJ lines and angles”, uploaded by Srinath Chowdary, 26 Dec 2022. Images only.',
+  'Manaster BJ, May DA, Disler DG. Musculoskeletal Imaging: The Requisites. 4th ed. Philadelphia: Elsevier Saunders; 2013. Chapters 9, 17 and 43.',
+  'Greenberg MS. Occipitoatlantoaxial injuries (occiput to C2). In: Handbook of Neurosurgery. Chapter 70. Thieme.'],
   notes: { cue: 'Do not read out.', script: 'Additional journal sources used for the trauma intervals, Goel groups, tuberculosis grading and irreducible os odontoideum.',
     source: 'Citation details checked against the article PDFs (authors, journal, volume, pages and DOI as printed on each first page).' } },
 

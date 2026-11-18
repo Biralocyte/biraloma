@@ -26,3 +26,7 @@
   - numeric Powers ratio cut-off (Smoker 2008 names it only; Deliganis gives none in Table 3)
   - a condyle–C1 interval by that name (nearest: AO articulation 1–2 mm)
   - Redlund-Johnell, Clark station, Levine–Edwards, crowned dens
+
+## After Greenberg and MSK Requisites
+- Filled: Powers ratio cut-offs; condyle–C1 interval (adult and pediatric, radiograph and CT); BDI CT values; Levine–Edwards; Traynelis; Fielding–Hawkins; Landells; Dickman TAL types; RA atlantoaxial impaction sign.
+- Still missing: Redlund-Johnell and Clark station numeric values; crowned dens by name.

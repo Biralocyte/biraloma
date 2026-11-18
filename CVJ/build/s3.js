@@ -1,5 +1,6 @@
 // Part 3: trauma, inflammatory/degenerative/infective, neoplasm
 const F = id => '/home/user/biraloma/CVJ/WORK/figs_final/' + id + '.png';
+const MSK = 'Manaster BJ, May DA, Disler DG. Musculoskeletal Imaging: The Requisites, 4th ed (Elsevier 2013)';
 const A = (g, c) => ({ g, c });
 module.exports = [
 { type: 'section', num: '3', t: 'Trauma', notes: { cue: 'Section change.', script: 'Trauma. Fractures of the junction account for approximately 25 percent of cervical spine fractures.' } },
@@ -27,6 +28,20 @@ module.exports = [
     qa: 'Q: Whose classification? A: Anderson and Montesano. Chen presents it as Table 3 citing refs 27–28 without naming it; EPOS C-0882 names it: “Type I: comminuted impaction fracture due to axial loading; Type II: skull base fracture that extends through the occipital condyle; Type III (most common): avulsion fracture mediated through tension in the alar ligament.”',
     source: 'Chen p.493–494, Table 3 (verbatim).' } },
 
+{ type: 'table', t: 'Atlanto-occipital Dislocation: Measurements', colW: [2.6, 2.6, 3.8], fs: 18,
+  rows: [['Measurement', 'Radiograph (adult)', 'CT'],
+    ['Basion–dens interval', '≤12 mm', 'Adult **<8.5 mm**; child <10.5 mm'],
+    ['Basion–axial interval', '−4 to 12 mm', 'Each ≤12 mm (with BDI)'],
+    ['Condyle–C1 interval', '≤2 mm', 'Adult **<1.4 mm**; child <2.5 mm'],
+    ['Powers ratio (BC/AO)', '<0.9 normal; ≥1 AOD', 'Anterior AOD only']],
+  foot: 'Recommended: **BAI–BDI** and **condyle–C1 interval**; CT values are smaller than radiograph values',
+  notes: { cue: 'Which number to use for occiput–C1 injury.',
+    script: 'Greenberg is explicit that no single measurement for atlanto-occipital dislocation is completely reliable, that CT is more accurate than radiographs, and that CT normal values are smaller. The recommended methods are the basion–axial and basion–dens intervals together, and the condyle–C1 interval, which is the recommended test in children. On CT in adults the basion–dens interval should be under 8.5 millimeters and the condyle–C1 interval under 1.4 millimeters, measured at equidistant points along the joint on sagittal and coronal reformats. The Powers ratio, the basion-to-posterior-arch distance over the opisthion-to-anterior-arch distance, is normal below 0.9, a gray zone up to 1, and abnormal at 1 or more; it detects only anterior dislocation and fails with C1 or foramen magnum fractures.',
+    iftime: 'Greenberg: AOD is probably underdiagnosed, more than twice as common in children (flatter condyles, relatively heavier head, ligament laxity), may present neurologically intact, and traction is contraindicated because of about a 10% risk of neurologic deterioration. Pediatric condyle–C1 interval on CT: <2.5 mm on a single measurement or <4.0 mm averaged. Other methods (Dublin measure, X-line) are less used. MRI showing high T2 signal in the atlanto-occipital joints or ligaments is very sensitive but not specific for instability.',
+    clinical: 'On every trauma CT, look at the occipital condyle–C1 joints on coronal and sagittal reformats; a gap above about 1.4 mm in an adult needs MRI and a call.',
+    qa: 'Q: Why does this differ from the 12 mm on the earlier intervals slide? A: 12 mm is the radiographic (Harris) value; Greenberg Table 70.1 gives smaller CT values (BDI <8.5 mm adults). Maserati et al, cited by Greenberg, defined craniocervical misalignment as a condyle–C1 interval >2.0 mm on CT. Q: Powers ratio values? A: This is the first source in the deck with a numeric cut-off; it fills the gap logged earlier.',
+    source: 'Greenberg MS. Handbook of Neurosurgery, Ch 70 Occipitoatlantoaxial Injuries (Occiput to C2), 70.1.3 Radiographic evaluation, Tables 70.1 and 70.2 (book p.1153–1155).' } },
+
 { type: 'imgtext', t: 'Atlanto-occipital Dislocation', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/deliganis_F7.png'], imgW: 5.2, capSize: 14,
   cap: ['Atlanto-occipital dislocation. (a) Cross-table lateral radiograph: widened basion-dens interval of 18 mm. (b, c) Left (b) and right (c) sagittal reformatted CT: bilateral widening of the atlanto-occipital joints with anterior displacement of the occipital condyles relative to the atlantal articular masses. The patient survived with substantial neurologic deficit.'],
   lines: [{ t: '**Anterior** displacement of occiput', num: true }, { t: '**Longitudinal distraction**', num: true }, { t: '**Posterior** displacement', num: true }, { t: 'Commoner in **children**; mortality from brainstem injury', plain: true, sub: true }],
@@ -39,7 +54,7 @@ module.exports = [
 
 { type: 'img', t: 'Jefferson Fracture', imgs: [F('chen_F22')],
   cap: ['Jefferson’s fracture. A Jefferson’s fracture with an intact transverse ligament is stable (A), whereas one with a ruptured transverse ligament is unstable (B).'],
-  key: '**Transverse ligament** decides; lateral masses **>6 mm** apart',
+  key: '**Transverse ligament** decides stability: check it on **MRI**',
   notes: { cue: 'Axial load; arches break; ligament decides.',
     script: 'Jefferson’s fracture results from axial loading and is the simultaneous disruption of the anterior and posterior arches of C1, with or without disruption of the supporting ligaments. The commonest causes are a fall from a height and a diving injury. The transverse ligament is of critical importance: it is frequently avulsed at its bony insertion on C1. If it remains intact, the fracture is stable; if it is disrupted, stability depends on the integrity of the alar ligament. Neurologic deficits are extremely rare in isolated C1 fractures; clinical features are neck and suboccipital pain, dysphagia from retropharyngeal hematoma, and posterior fossa stroke or TIA from vascular damage. CT may show the bony avulsion, and MRI is more helpful for the ligament and cord.',
     iftime: 'Chong Fig. 14.11 also shows a transverse foramen fracture, where vertebral artery injury is suspected: mention CTA.',
@@ -57,11 +72,22 @@ module.exports = [
     qa: 'Q: Rule of Spence / lateral mass overhang? A: Not given in these sources; Chong shows lateral displacement qualitatively (panel D). I did not quote an outside value.',
     source: 'Chong p.297, p.301 (verbatim condensed).' } },
 
+{ type: 'imgtext', t: 'C1 Fractures: Landells and the TAL', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/gb_landells.png'], imgW: 3.3, capSize: 13, size: 19,
+  cap: ['Landells classification with Jefferson types: I, single arch; II, both arches (burst); III, lateral mass, including tubercle avulsion (IV).'],
+  lines: [{ t: 'Single arch: **31–45%**', num: true }, { t: 'Burst (both arches): **37–51%**', num: true }, { t: 'Lateral mass: **13–37%**', num: true },
+    { t: 'TAL injury: overhang **≥7 mm**, ADI, or **MRI**', plain: true }, { t: 'Spence rule alone **misses most** TAL tears', plain: true }],
+  notes: { cue: 'Treatment of C1 fractures depends on the ligament, not the fracture pattern.',
+    script: 'Greenberg uses the Landells classification: type I involves one arch, type II is the burst fracture through both arches, and type III involves the lateral mass. Treatment depends mainly on the transverse atlantal ligament. Indirect clues are lateral mass overhang of 7 millimeters or more, the rule of Spence, and a wide atlantodental interval; but Greenberg warns that the Spence rule is inaccurate and missed 60 percent of ligament injuries seen on MRI, so it should not be used alone. MRI can show the ligament directly: loss of continuity, high signal on gradient echo, or blood separating it from the C1 tubercle. That is why the radiologist should recommend MRI for any burst fracture.',
+    iftime: 'Dickman classification of TAL disruption: type I is a tear of the ligament itself (rarely heals; fused at diagnosis); type II is avulsion of the C1 tubercle where the ligament attaches (about 74% heal with immobilization, halo recommended). With an intact TAL, immobilization alone; with TAL disruption, immobilization or fixation and fusion.',
+    figure: 'Greenberg Ch 70, Table 70.7 illustrations (Landells classification with Jefferson types I–IV), book p.1163. Fracture sites shown as red marks (named). Rendered from vector artwork, 637 × 1166 px.',
+    qa: 'Q: 6 mm or 7 mm overhang? A: EPOS C-2392 and C-0882 use 6 mm; Greenberg uses ≥7 mm and calls the rule inaccurate. Greenberg also notes the 2013 guideline uses ADI >5 mm in adults as a TAL-disruption criterion, while others use 3 mm. Q: Normal C1 congenital clefts? A: See Part 1: smooth corticated margins, no soft tissue swelling.',
+    source: 'Greenberg MS. Handbook of Neurosurgery, Ch 70 Occipitoatlantoaxial Injuries (Occiput to C2), 70.3.3 (TAL assessment, Dickman types) and 70.4.4–70.4.5 (Table 70.7, practice guideline), book p.1161–1164.' } },
+
 { type: 'img', t: 'Odontoid Fractures', imgs: [F('chen_F23'), F('chong_F14.13')],
   cap: ['Left: types of odontoid fracture. Type I: avulsion of the tip of the dens at the insertion of the alar ligament. Type 2: at or above the junction of the dens and the central body. Type 3: in the superior body and superior articular facets of C2. Right: type 2 on coronal (A) and sagittal (B) CT; type 3 on coronal (C) and sagittal (D) CT; on the sagittal view alone it is sometimes difficult to differentiate the types.'],
   notes: { cue: 'Use the coronal reformat to type it.',
     script: 'Odontoid fracture represents approximately 15 percent of all cervical fractures, and hyperflexion is believed to play a major role. The three types are the familiar ones. Type I is an avulsion of the tip at the insertion of the alar ligament. Type II is a fracture at or above the junction of the dens and the body. Type III extends into the superior body and superior articular facets of C2. As the Chong figure shows, on the sagittal view alone it can be difficult to separate types II and III, so always look at the coronal reformat. MRI shows the relation of C1 to C2, ligament disruption and cord injury, and a fracture line with marrow edema; high-resolution CT may be better for a subtle type I fracture.',
-    iftime: 'EPOS C-2392 (Anderson & D’Alonzo): type II most common (59%), always unstable, high prevalence of nonunion (64%) from limited vascular supply; type III 33%, better prognosis. C-0882: for type II, axial CT alone misses more than 50% (use reformats). AIIMS: the odontoid process is the most commonly fractured bone in this region. There is no vascular communication between the base of the dens and the body of the axis, relevant to sequestrum formation with type II fracture.',
+    iftime: 'Greenberg: type IIA is a type II with comminution and large bone chips (about 3% of type II, usually unstable); odontoid fractures are 10–15% of cervical fractures but the commonest cervical fracture over 65 years, often from a ground-level fall; surgery is considered for type II at age ≥50 years, type IIA, displacement ≥5 mm, or failed alignment in a halo. Type III can look like type II on sagittal CT; the coronal view shows the relation to the body. EPOS C-2392 (Anderson & D’Alonzo): type II most common (59%), always unstable, high prevalence of nonunion (64%) from limited vascular supply; type III 33%, better prognosis. C-0882: for type II, axial CT alone misses more than 50% (use reformats). AIIMS: the odontoid process is the most commonly fractured bone in this region. There is no vascular communication between the base of the dens and the body of the axis, relevant to sequestrum formation with type II fracture.',
     figure: 'Chen & Liu Fig. 23 (p.496): text labels “Type I: avulsion”, “Type 2: High”, “Type 3: low” in the drawing (numeral style inconsistent in source). Chong Fig. 14.13 (p.303): no pointers.',
     clinical: 'State the type, displacement and angulation of the fragment, and any ligament or cord injury. Type II is the one surgeons worry about.',
     qa: 'Q: Classification name? A: Chen presents the three types citing ref 21 (Anderson & D’Alonzo); AIIMS uses the same three types.',
@@ -76,6 +102,41 @@ module.exports = [
     clinical: 'Cord signal change or dislocation with a dens fracture = urgent spinal surgery referral.',
     source: 'AIIMS p.33; Chen p.497.' } },
 
+{ type: 'img', t: 'Normal Variants That Mimic Fracture', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/msk_p005_1.png', '/home/user/biraloma/CVJ/WORK/figs_final/gb_p023.png'], capSize: 14, size: 20,
+  cap: ['Left: coronal CT, normal C2 synchondroses; the body–odontoid synchondrosis ', A('→', 'white'), ' lies below the apparent base of the dens and may stay unfused, mimicking a type 3 fracture; a small os terminale at the dens tip. Right: os odontoideum ', A('▶', 'yellow'), ' on sagittal (A), coronal (B) and axial (C) CT; extension (D) and flexion (E) radiographs show forward displacement (Δ) of C1 on flexion.'],
+  lines: ['Os terminale: fuses by **12 years**; may persist', 'Os odontoideum **moves with C1**: test in flexion–extension'],
+  notes: { cue: 'Three things that can be called a dens fracture by mistake.',
+    script: 'Three normal or developmental findings can mimic a dens fracture. The body–odontoid synchondrosis normally fuses between 3 and 6 years but can persist as a thin, straight, well-defined lucency well below the apparent base of the dens, unlike a type 3 fracture. The os terminale at the dens tip normally fuses by 12 years; if it persists, it can mimic a tip fracture, which is why Chen calls the distinction from type I fracture difficult. And an os odontoideum, as you saw last time, has smooth cortication; on flexion and extension it moves with C1, not with C2, which is the dynamic study the surgeon wants.',
+    iftime: 'MSK Requisites also mentions Mach lines from the incisors or the arch of the atlas simulating a transverse dens fracture on radiographs.',
+    figure: 'MSK Requisites 4e Fig. 9-3 (p.144): synchondrosis = white arrows (→ gray), 685 × 498 px. Greenberg Ch 70 Fig. 70.6 (book p.1175): os odontoideum = yellow arrowheads (▶ yellow); C1 displacement on flexion = Δ (named); 679 × 616 px. The MSK flexion–extension pair (Fig. 9-4E, F) was replaced by this more complete figure.',
+    qa: 'Q: Which is commoner, os odontoideum or ossiculum terminale? A: Greenberg: true os odontoideum is rare; persistent ossiculum terminale (nonunion of the apex at its secondary ossification center) is more common. Os types: orthotopic (moves with the C1 arch) and dystopic (functionally fused to the basion).',
+    clinical: 'A smooth, straight, well-corticated lucency below the dens base in a stable patient is a synchondrosis remnant, not a type 3 fracture; correlate with CT and MRI marrow edema if in doubt.',
+    source: MSK + ', Ch 9 Spine Trauma, Cervical spine normal variants (p.144–145); Chen & Liu 2009 p.491; Youmans p.4 (ossification ages).' } },
+
+{ type: 'imgtext', t: 'Ossiculum Terminale vs Os Odontoideum', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/ot_vs_os_stack.png'], imgW: 5.3, capSize: 13, size: 18, capRight: true,
+  cap: ['Top: persistent ossiculum terminale; coronal polytomogram (a) and coronal CT (b): unfused terminal ossicle (dot) on a dens of normal height. Bottom: os odontoideum ', A('→', 'white'), ', orthotopic (A) and dystopic (B), sagittal CT; round or triangular C1 anterior arch ', A('→', 'black'), '; with Klippel–Feil, basilar invagination (C).'],
+  lines: ['Terminale: **small tip ossicle**, dens normal height', 'Os: **large ossicle**, **short dens**, gap above C2 facets'],
+  notes: { cue: 'Both are separate ossicles above C2; size, dens height and gap level separate them.',
+    script: 'These two are easy to confuse because both are separate, well-corticated ossicles above C2. A persistent ossiculum terminale is the tip ossification center that failed to fuse; it normally fuses by about 12 years. It is small, sits on top of a dens of normal height, lies above the transverse ligament, and when isolated is stable and of little clinical significance. An os odontoideum is a larger ossicle sitting on a short, hypoplastic dens, with the gap usually above the level of the C2 superior facets, so the cruciate ligament cannot hold it and atlantoaxial instability is common. The anterior arch of C1 is often round and hypertrophic.',
+    iftime: 'Greenberg: true os odontoideum is rare; persistent ossiculum terminale is more common. MSK Requisites notes that some authors think a large os terminale may enlarge into an os odontoideum when the dens is hypoplastic. Smoker & Khanna 2008: a well-corticated ossicle makes a type I (tip avulsion) fracture unlikely.',
+    figure: 'Top: Smoker 1994 Fig. 27 (p.272); terminal ossicle = dot (word kept); 902 × 367 px. Bottom: Chong Ch 14 Fig. 14.10 (p.300); os = white arrows (→ gray), C1 anterior arch = black arrow (→ black); 929 × 349 px. Stacked vertically without resizing.',
+    clinical: 'Measure dens height and the level of the gap relative to the C2 superior facets; if it is an os, ask for flexion–extension imaging.',
+    source: 'Smoker 1994 p.272; Smoker & Khanna 2008 p.1134–1135; Chen 2009 p.491; Chong Ch 14 p.297; Youmans Ch 260 p.1966; Greenberg Ch 70 p.1175; MSK Requisites Ch 9 p.144.' } },
+
+{ type: 'table', t: 'Telling Them Apart', colW: [2.3, 3.35, 3.35], fs: 17,
+  rows: [['Feature', 'Ossiculum terminale', 'Os odontoideum'],
+    ['Origin', 'Unfused **tip** ossification center', 'Separate ossicle replacing dens (congenital or old injury)'],
+    ['Dens height', '**Normal**', '**Short, hypoplastic**'],
+    ['Gap level', 'Above transverse ligament', '**Above C2 superior facets**'],
+    ['C1 anterior arch', 'Normal', 'Often **round, hypertrophic**'],
+    ['Stability', 'Stable when isolated', 'Instability **common**: dynamic views'],
+    ['Frequency', 'More common', 'Rare']],
+  foot: 'Both well corticated, unlike a dens fracture',
+  notes: { cue: 'The table the neurosurgeons will want.',
+    script: 'To summarize the differences: the ossiculum terminale is a small unfused tip on a normal-height dens, above the transverse ligament, and stable when isolated. The os odontoideum replaces most of the dens, the dens below it is short, the gap usually lies above the C2 superior facets so the transverse ligament has nothing to hold, the C1 arch is often hypertrophic, and instability is common, so flexion–extension imaging is needed.',
+    qa: 'Q: Can an ossiculum terminale be unstable? A: Isolated, it is stable (Chen, Smoker, Chong). AIIMS lists it under its group II atlantoaxial instability classification (incompetent odontoid), and notes that if atlantoaxial dislocation occurs, the remaining odontoid may compress the cervicomedullary junction; so assess stability whenever there is atlantoaxial malalignment. Q: Relation to transverse ligament? A: Chen: apical, alar and transverse ligaments are lacking or nonfunctional if there is no ossiculum terminale; the os gap above the C2 facets causes cruciate incompetence (Chen, Chong, Youmans).',
+    source: 'Synthesis of Smoker 1994, Smoker & Khanna 2008, Chen 2009, Chong Ch 14, Youmans Ch 260, Greenberg Ch 70, AIIMS p.22–26 (wording condensed; table is the presenter’s summary).' } },
+
 { type: 'imgtext', t: 'Hangman’s Fracture', imgs: [F('chen_F27')], imgW: 5.0, capSize: 14, size: 22,
   cap: ['Hangman’s fracture. Plain radiography (A) and axial CT (B): fracture at the pars interarticularis ', A('⇨', 'white'), '. Type 1: no displacement of the anterior or posterior arch; cord not compromised.'],
   lines: [{ t: 'Minimally displaced ring fracture', num: true }, { t: 'Pars fracture + **anterior displacement** of C2 body', num: true }, { t: 'Plus **bilateral facet dislocation**', num: true }, { t: 'Type 2: >3 mm, angulation C2–3', plain: true, sub: true }],
@@ -84,6 +145,17 @@ module.exports = [
     figure: 'Chen & Liu Fig. 27, p.498. Pars fracture = white open block arrow in A (⇨ gray); B two axial CT slices without pointers.',
     qa: 'Q: Levine–Edwards? A: Not described in these sources; Chen uses Effendi.',
     source: 'Chen p.495 (verbatim condensed).' } },
+
+{ type: 'imgtext', t: 'Hangman’s: Levine–Edwards', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/gb_p017.png'], imgW: 4.7, capSize: 13, size: 18,
+  cap: ['Hangman’s fracture type II: anterior displacement of C2 on C3. (A) Lateral radiograph; (B, C) sagittal CT (PF = pars fracture). (D) Sagittal T2 and (E) STIR: abnormal signal ', A('▶', 'yellow'), ' in the C2–3 disc region, prevertebral space (PVS), interspinous ligament (ISL) and supraspinous tissues (SST).'],
+  lines: [{ t: '**I**: ≤3 mm, no angulation; stable', plain: true }, { t: '**II**: >3 mm and/or angulation; C2–3 disc torn', plain: true }, { t: '**IIA**: angulation, little shift: **no traction**', plain: true }, { t: '**III**: II + facet dislocation', plain: true }, { t: 'MRI: look for **C2–3 disc** disruption', plain: true }],
+  notes: { cue: 'The neurosurgeon’s hangman classification.',
+    script: 'Neurosurgeons grade hangman’s fractures with the Levine modification of Effendi. Type I has 3 millimeters or less of C2 on C3 subluxation and no angulation, and is stable. Type II has more than 3 millimeters of subluxation and or angulation, a marker of C2–3 disc and posterior longitudinal ligament disruption. Type IIA has little translation but marked angulation, and traction is contraindicated because it widens the disc space. Type III adds C2–3 facet dislocation. Angulation is measured between the inferior endplates of C2 and C3. MRI looks for disc disruption, which usually means surgical stabilization.',
+    iftime: 'Greenberg: about 95% are neurologically intact; associated cervical injuries in about one third; most heal with external immobilization (fusion 93–100% if maintained 8–14 weeks). Surgery is considered for severe angulation (Levine II, Francis II and IV), C2–3 disc disruption, or failure of alignment. A displacement over 50% of the C3 body AP diameter suggests instability. Neurologically intact suspected type I patients get supervised flexion–extension films to exclude a reduced type II.',
+    figure: 'Greenberg Ch 70 Fig. 70.3 (book p.1169). Pars fracture = label PF (named); abnormal MRI signal = yellow arrowheads (▶ yellow) with labels PVS, ISL, SST. 751 × 674 px.',
+    qa: 'Q: Effendi or Levine? A: Chen uses Effendi types 1–3; Greenberg’s Levine modification adds type IA (atypical, may narrow the canal) and IIA (flexion–distraction; no traction). Francis grading also exists, correlating type I with grade I and type III with grade IV.',
+    source: 'Greenberg MS. Handbook of Neurosurgery, Ch 70 Occipitoatlantoaxial Injuries (Occiput to C2), 70.5.3 Hangman’s fracture, Tables 70.8–70.9, Fig. 70.3 (book p.1166–1169).' } },
+
 
 { type: 'section', num: '4', t: 'Inflammatory, Degenerative and Infective', notes: { cue: 'Section change.', script: 'Next, inflammatory, degenerative and infective disease.' } },
 
@@ -95,6 +167,28 @@ module.exports = [
     figure: 'Chen & Liu Fig. 28, p.499: no pointers; composite 1144 × 431 px.',
     qa: 'Q: Ranawat or Redlund-Johnell values for settling? A: Not given numerically in these sources; Youmans lists rheumatoid cranial settling under secondary basilar invagination. Q: Prevalence differs (Chen 60–70% cervical spine)? A: Chen: cervical spine involved in 60–70%, atlantoaxial joint in 20–25%; AIIMS: clinically affected in 44–88%, AAI 25%.',
     source: 'AIIMS p.26 (verbatim condensed); Chen p.495–496; Smoker p.262 (cranial settling).' } },
+
+{ type: 'imgtext', t: 'RA: Atlantoaxial Subluxation', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/msk_p022_2.png'], imgW: 4.6, capSize: 14, size: 20,
+  cap: ['Lateral radiograph, RA: widened space between the C1 anterior arch and the dens ', A('→', 'white'), ' (short arrow); spinolaminar line broken at C1–C2. Also atlantoaxial impaction (C1 arch opposite the waist of C2), indistinct facets and thin, eroded spinous processes ', A('→', 'white'), ' (long arrows).'],
+  lines: ['Pannus loosens the **transverse ligament**', 'Increases in **flexion**, reduces in extension', 'Often silent until **~9 mm**', 'Broken **spinolaminar line** at C1–C2'],
+  notes: { cue: 'The commonest C1–C2 complication of RA.',
+    script: 'Atlantoaxial subluxation is the most frequent rheumatoid complication at C1–C2. Pannus around the dens stretches or disrupts the transverse ligament, so the interval widens, typically more in flexion and less in extension, which is why a flexion view matters. MSK Requisites makes two practical points: the subluxation is often not symptomatic until it approaches about 9 millimeters, and if the dens is hidden by the mastoids and osteopenia, a break in the spinolaminar line at C1–C2 still gives it away. MRI shows how much the pannus itself narrows the canal.',
+    iftime: 'AIIMS: in RA, three abnormalities at the CVJ: atlantoaxial instability (25%), cranial settling (8–16%) and pannus (10–30%). Chen: cervical spine involved in 60–70% of RA, atlantoaxial joint in 20–25%.',
+    figure: 'MSK Requisites 4e Fig. 17-16 (p.257). Short white arrow (→ gray) = widened atlantoaxial interval; long white arrows (→ gray) = eroded spinous processes. 585 × 549 px.',
+    qa: 'Q: Cut-off differs from 3 mm? A: MSK Requisites diagnoses subluxation at an atlantoaxial distance >2.5 mm (and in adults the normal distance does not change with flexion); AIIMS uses >3 mm adults. The deck shows AIIMS; both agree that >5 mm motion indicates instability (AIIMS).',
+    clinical: 'Ask for (or recommend) a flexion lateral when RA patients get neck imaging before anesthesia or surgery; neutral views can look normal.',
+    source: MSK + ', Ch 17 Rheumatoid Arthritis, Spine (p.257); Ch 9 (p.143, atlantoaxial distance); AIIMS p.26; Chen p.495–496.' } },
+
+{ type: 'img', t: 'RA: Atlantoaxial Impaction', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/msk_p012_1.png', '/home/user/biraloma/CVJ/WORK/figs_final/msk_p012_2.png'], capSize: 14, size: 20,
+  cap: ['(A) Lateral radiograph: atlantoaxial subluxation ', A('→', 'white'), ' and osteopenia; the C1 anterior arch ', A('▶', 'white'), ' is level with the dens. (B) Same patient 2 years later: severe impaction; the C1 anterior arch ', A('▶', 'white'), ' now lies opposite the lower C2 body, and the canal between C2 and the C1 posterior arch is severely narrowed.'],
+  lines: ['Facet erosion and collapse: **dens rises** into foramen magnum', 'Sign: **C1 arch opposite C2 body**, not the dens', 'Neurologic deficit **more often than** with subluxation'],
+  notes: { cue: 'Cranial settling: watch the anterior arch of C1.',
+    script: 'The second rheumatoid complication is atlantoaxial impaction, also called cranial settling. Erosion and collapse of the C1–C2 lateral facets let the skull and atlas sink, so the dens protrudes into the foramen magnum. Because the dens tip is often invisible on radiographs in these osteopenic patients, look at the anterior arch of C1: normally it is level with the upper dens; with impaction it lies opposite the body of C2. This matters because neurologic symptoms are more often associated with impaction than with subluxation. Note that as the atlas sinks, the subluxation interval can appear to improve, which is a trap.',
+    iftime: 'AIIMS: in cranial settling the lateral masses of C1 are eroded and compressed, the anterior arch descends and the posterior arch rotates upward, so the dens migrates up and the canal narrows. Other rheumatoid C-spine findings (MSK Requisites): odontoid erosion, unilateral facet erosion with torticollis, erosion of facets and uncovertebral joints, spinous process erosion, and a multilevel “discitis”-like stair-step deformity from osteoporosis and ligament laxity.',
+    figure: 'MSK Requisites 4e Fig. 17-17A, B (p.258). A: subluxation = arrow (→ gray); C1 anterior arch = arrowheads (▶ gray). B: C1 anterior arch = arrowheads (▶ gray). 518 × 591 and 512 × 591 px.',
+    clinical: 'In long-standing RA, compare with old films: a falling C1 arch with an “improving” ADI means impaction, not recovery. Basilar impression from RA is Youmans’ “rheumatoid cranial settling” (secondary basilar invagination).',
+    qa: 'Q: Ranawat or Redlund-Johnell values? A: Not given numerically in the sources used; C-2397 (EPOS) defines a modified Ranawat index on CT without a cut-off (Backup).',
+    source: MSK + ', Ch 17, Spine (p.257–258); AIIMS p.26; Smoker 1994 p.262; Youmans Box 260.1.' } },
 
 { type: 'imgtext', t: 'Pannus Types on MRI', imgs: [F('chong_F14.19')], imgW: 4.6, capSize: 13,
   cap: ['RA with C1-2 involvement, 76-year-old. (A) Sagittal T2WI, (B) T1WI, (C, D) axial gradient echo: C1-2 subluxation with soft tissue between C1 anterior arch and dens and retroodontoid; heterogeneous hypo- to hyperintensity on T2WI, isointense on T1WI, with dens erosions.'],
@@ -157,6 +251,17 @@ module.exports = [
     script: 'This is grade 3: the lateral radiograph shows destruction of the odontoid with a wide prevertebral shadow, and CT shows destruction of the occipital condyle. This patient went directly to transoral decompression and posterior fixation.',
     figure: 'Teegala R et al. Neurosurgery 2008;63:946–955, Fig. 2 (PDF p.3, journal p.948). No pointers. The three panels were separated from the printed layout to exclude the embedded caption text; each panel is shown whole.',
     source: 'Teegala R et al. Neurosurgery 2008;63:946–955.' } },
+
+{ type: 'imgtext', t: 'Rotatory Fixation: Fielding–Hawkins', imgs: ['/home/user/biraloma/CVJ/WORK/figs_final/gb_fh_grid.png'], imgW: 5.6, capRight: true, capSize: 13, size: 18,
+  cap: ['Fielding & Hawkins types (top left to bottom right). I: TAL intact, rotation about the dens (pivot ⌖), anterior C1 displacement ≤3 mm. II: TAL injured, one facet is the pivot, 3.1–5 mm. III: TAL injured, both facets displaced, >5 mm. IV: incompetent odontoid with posterior C1 displacement.'],
+  lines: ['Child: **cock-robin** head', 'III–IV: **very unstable**'],
+  notes: { cue: 'Grade rotatory fixation by C1 displacement.',
+    script: 'Atlantoaxial rotatory subluxation is mostly a childhood problem, after minor trauma or a head and neck infection, as in Grisel syndrome. The child holds the head in the cock-robin position: tilted to one side, rotated to the other, slightly flexed. Fielding and Hawkins graded it by the transverse ligament and anterior displacement of C1: type I, the commonest, with an intact ligament and up to 3 millimeters; type II, 3 to 5 millimeters; type III, more than 5 millimeters; and type IV, posterior displacement from an incompetent odontoid. CT shows the rotation and MRI the ligament.',
+    iftime: 'Greenberg: on the open-mouth view the anteriorly rotated C1 lateral mass looks larger and closer to the midline; asymmetry that persists with head turned 10–15° each way is the sign. Early gentle traction usually reduces it; after more than a month traction works less often; irreducible or recurrent cases need C1–2 fusion. Grisel syndrome: antibiotics, traction, then immobilization (type I soft collar, II rigid collar, III–IV halo).',
+    figure: 'Greenberg Ch 70 Table 70.6 illustrations (book p.1159), each type cropped from the table without resizing and arranged 2 × 2. Pivot point = crosshair symbol (named); rotation = curved arrows (named). About 512 × 400 px each.',
+    clinical: 'In a child with torticollis, the report should state C1–C2 rotation and the atlantodental interval, because type II and above imply ligament injury.',
+    source: 'Greenberg MS. Handbook of Neurosurgery, Ch 70 Occipitoatlantoaxial Injuries (Occiput to C2), 70.3.2 Atlantoaxial rotatory subluxation, Table 70.6 (book p.1158–1160).' } },
+
 
 { type: 'section', num: '5', t: 'Neoplasms', notes: { cue: 'Section change.', script: 'Neoplasms. The role of imaging is to determine the nature and resectability of the tumor.' } },
 
