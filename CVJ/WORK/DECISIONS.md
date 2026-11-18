@@ -129,3 +129,4 @@ Times are Nepal time (NPT).
   - Type 3 Odontoid Fracture on MRI
 - Part 2 script is about 37 min. Slides 1–36 are unchanged (pixel comparison).
 - New notes are written in my own condensed wording with short source quotes, citing chapter/section and page.
+- Added an embryology slide, "Embryology: Where Anomalies Arise", before Occipital Condyle Hypoplasia. Images: AIIMS Fig 3 (sclerotomes) and Smoker 1994 Fig 26 (axis ossification centers, re-rendered from the scanned page). The positional description in the caption is the presenter's, based on the Youmans and MSK text. The synchondrosis fusion-age disagreement (MSK 3–6 y vs Youmans by 8 y) is in the Q&A. Part 2 script is about 37.6 min.
