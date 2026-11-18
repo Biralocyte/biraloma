@@ -52,11 +52,13 @@ slides.forEach((s, idx) => {
       const cl = s.cap ? capLines(s.cap, W - 2 * MX, capSize) : 0;
       const capH = cl ? cl * capSize * 1.25 / 72 + 0.12 : 0;
       const keyH = s.key ? 0.5 : 0;
-      const box = { x: MX, y: top + 0.05, w: W - 2 * MX, h: bottom - top - 0.05 - capH - keyH - 0.08, align: s.align || 'center' };
+      const lsz = s.size || 22; const linesH = s.lines ? s.lines.length * lsz * 1.75 / 72 + 0.15 : 0;
+      const box = { x: MX, y: top + 0.05, w: W - 2 * MX, h: bottom - top - 0.05 - capH - keyH - linesH - 0.08, align: s.align || 'center' };
       const r = L.imageRow(sl, s.imgs, box);
       let y = r.y + r.h + 0.06;
       if (s.cap) { sl.addText(L.captionRuns(s.cap, capSize), { x: MX, y, w: W - 2 * MX, h: capH, fontFace: FONT, valign: 'top', margin: 0, lineSpacingMultiple: 1.0, fit: 'none' }); y += capH + 0.02; }
-      if (s.key) sl.addText(L.rich(s.key, { fontFace: FONT, fontSize: 22, color: C.text }), { x: MX, y, w: W - 2 * MX, h: 0.48, valign: 'top', margin: 0 });
+      if (s.key) { sl.addText(L.rich(s.key, { fontFace: FONT, fontSize: 22, color: C.text }), { x: MX, y, w: W - 2 * MX, h: 0.48, valign: 'top', margin: 0 }); y += 0.5; }
+      if (s.lines) L.bullets(sl, s.lines, { x: MX, y: y + 0.02, w: W - 2 * MX, h: linesH }, { bullet: s.bullet, size: lsz });
       report.push({ no, t: s.t, imgs: r.rects.map(q => ({ wIn: +q.w.toFixed(2), hIn: +q.h.toFixed(2), px: q.px })) });
     } else if (s.type === 'imgtext') {
       const iw = s.imgW || 4.8; const capSize = s.capSize || 14;

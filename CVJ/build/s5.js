@@ -31,11 +31,6 @@ B('Basilar Impression: Bone Softening', ['youmans_F260.14'],
   'Youmans & Winn Fig. 260.14 (p.1970). C1 articular pillar = white arrow (→ gray) in D; occiput–C1 articulation = black arrows (→ black) in E, F.',
   'Youmans p.1968.', 'Secondary basilar impression from bone softening.', { capSize: 14 }),
 
-B('Ponticulus Posticus', ['chong_F14.8'],
-  ['Ponticulus posticus. (A) Complete type; (B) calcified type; (C) bilateral involvement ', A('→', 'black'), '; (D) the vertebral artery goes through the ponticulus posticus ', A('→', 'white'), '.'],
-  'Chong Fig. 14.8 (p.299). Bilateral ponticulus = black arrows (→ black) in C; vertebral artery = white arrow (→ gray) in D.',
-  'Chong p.296–297.', 'Relevant before C1 lateral mass screws: the vertebral artery may run through the bony bridge.'),
-
 B('Hangman’s Fracture on CT', ['chong_F14.14'],
   ['Hangman fracture ', A('→', 'white'), A('→', 'black'), ' involving the pars interarticularis. (A) Axial and (B) sagittal reconstruction CT.'],
   'Chong Fig. 14.14 (p.303). Pars fractures = white arrows in A (→ gray), black arrow in B (→ black).',

@@ -59,3 +59,28 @@ Times are Nepal time (NPT).
 - Smoker 2008 values went into the Chamberlain, McGregor and Welcher Q&A (≤5 mm, ≤7 mm, platybasia >150°).
 - The references slide is split; the continuation numbers from 12 to 16.
 - Timing: core 65 slides, about 4,586 script words, about 40.7 min.
+
+## Part 2 deck (after Part 1 was presented up to slide 36)
+- Slides 1–36 are unchanged. I verified this by rendering the old and new decks and comparing them pixel by pixel: zero differences.
+- After slide 36, in this order:
+  - Part 2 title slide (no date: the meet date is not known)
+  - Outline: Part 2
+  - Four recap slides: lines; intervals; basilar invagination/Goel; os vs fracture and clefts. Images: Youmans 260.3, Deliganis Fig 2, Goel Figs 1a/2a, Smoker Fig 32.
+  - Section 2 "Chiari Malformations and Ponticulus Posticus" (10 slides)
+  - The previous sections, renumbered 3–7
+- Chiari sources (zip Chiari.zip, PDF chapter excerpts):
+  - Osborn's Brain 3e, Ch 41 Posterior Fossa Malformations: primary text.
+  - Essentials of Osborn's Brain 1e (2020), Ch 36: figures. These are the same images as the main book's end-of-chapter figures but numbered, at 975/750 px vs 375 px, with legends.
+  - Neuroradiology: The Core Requisites 5e (2025), Ch 8: cross-check.
+- Main-book figures in the PDF sit unnumbered at the end of the chapter. Their pointer icons are inline 16 px images, decoded by hash (scripts/osborn_figs.py). The Essentials pointer glyphs (private-use font characters) were mapped by comparison with the main-book icons:
+  - ﬅ = white arrow (→ gray)
+  - ﬇ = white open arrow (⇨ gray)
+  - ﬈ = black arrow (→ black)
+  - ﬊ = black open arrow (⇨ black)
+  - ﬆ = white curved arrow (↷ gray)
+  - ﬉ = black curved arrow (↷ black)
+- Fig 36-5A–D was composed as printed (2 × 2) into ess_36-5.png; all panels are whole.
+- Ponticulus posticus: Chong Fig 14.8 moved from Backup into a core slide. Facts from Chong p.296 and p.320. The "report it before posterior C1 surgery" advice is labelled in the notes as the presenter's inference.
+- Restored from Backup for Part 2: Atlas Fracture on CT, Grisel Syndrome.
+- Part 2 timing: about 30.3 min of core script (slides 37–84), leaving time for questions within the 50-min limit.
+- Disagreement noted in the notes: syrinx 40–80% of symptomatic surgical CM1 (Osborn) vs 12–23% (Requisites).

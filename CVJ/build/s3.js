@@ -2,7 +2,7 @@
 const F = id => '/home/user/biraloma/CVJ/WORK/figs_final/' + id + '.png';
 const A = (g, c) => ({ g, c });
 module.exports = [
-{ type: 'section', num: '4', t: 'Trauma', notes: { cue: 'Section change.', script: 'Trauma. Fractures of the junction account for approximately 25 percent of cervical spine fractures.' } },
+{ type: 'section', num: '3', t: 'Trauma', notes: { cue: 'Section change.', script: 'Trauma. Fractures of the junction account for approximately 25 percent of cervical spine fractures.' } },
 
 { type: 'text', t: 'Trauma: What to Check', lines: [
   '**NCCT** with sagittal and coronal reformats; **MRI** for soft tissue',
@@ -85,7 +85,7 @@ module.exports = [
     qa: 'Q: Levine–Edwards? A: Not described in these sources; Chen uses Effendi.',
     source: 'Chen p.495 (verbatim condensed).' } },
 
-{ type: 'section', num: '5', t: 'Inflammatory, Degenerative and Infective', notes: { cue: 'Section change.', script: 'Next, inflammatory, degenerative and infective disease.' } },
+{ type: 'section', num: '4', t: 'Inflammatory, Degenerative and Infective', notes: { cue: 'Section change.', script: 'Next, inflammatory, degenerative and infective disease.' } },
 
 { type: 'img', t: 'Rheumatoid Arthritis', imgs: [F('chen_F28')],
   cap: ['RA. (A) Midsagittal CT: erosion of the dens with a “pencil-tip” appearance. (B) Midsagittal T1-weighted MR imaging in another patient: retrodental mass, deformity of the dens, and involvement of the bone marrow. (C) Postcontrast T1-weighted MR imaging: enhancing lesion in the location of the transverse ligament surrounding the eroded dens tip.'],
@@ -158,7 +158,7 @@ module.exports = [
     figure: 'Teegala R et al. Neurosurgery 2008;63:946–955, Fig. 2 (PDF p.3, journal p.948). No pointers. The three panels were separated from the printed layout to exclude the embedded caption text; each panel is shown whole.',
     source: 'Teegala R et al. Neurosurgery 2008;63:946–955.' } },
 
-{ type: 'section', num: '6', t: 'Neoplasms', notes: { cue: 'Section change.', script: 'Neoplasms. The role of imaging is to determine the nature and resectability of the tumor.' } },
+{ type: 'section', num: '5', t: 'Neoplasms', notes: { cue: 'Section change.', script: 'Neoplasms. The role of imaging is to determine the nature and resectability of the tumor.' } },
 
 { type: 'img', t: 'Chordoma', imgs: [F('chen_F36')],
   cap: ['Large chordoma with retropharyngeal extension. (A) Sagittal T1: destruction of the lower clivus with a large soft tissue mass extending into the nasopharyngeal and oropharyngeal retropharyngeal spaces. (B) Hypointense on T1 with heterogeneous enhancement. (C) Characteristic bright T2 signal.'],

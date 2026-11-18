@@ -2,7 +2,7 @@
 const F = id => '/home/user/biraloma/CVJ/WORK/figs_final/' + id + '.png';
 const A = (g, c) => ({ g, c });
 module.exports = [
-{ type: 'section', num: '7', t: 'Instability and Management', sub: 'What changes the surgical decision', notes: { cue: 'Section change: neurosurgeons’ section.', script: 'This section is about what the surgeon needs from us.' } },
+{ type: 'section', num: '6', t: 'Instability and Management', sub: 'What changes the surgical decision', notes: { cue: 'Section change: neurosurgeons’ section.', script: 'This section is about what the surgeon needs from us.' } },
 
 { type: 'table', t: 'Atlantoaxial Instability: Classification', colW: [1.6, 7.4], fs: 19,
   rows: [['Group', 'Description'],
@@ -45,7 +45,7 @@ module.exports = [
     qa: 'Q: In Chiari with basilar invagination, can we just do a posterior decompression? A: Youmans: ventral decompression should be performed before any posterior procedure in irreducible ventral compression; posterior procedures first are associated with unfavorable results in up to 30%.',
     source: 'Youmans p.1961–1963, 1967 (verbatim condensed).' } },
 
-{ type: 'section', num: '8', t: 'Urgent Findings and Checklist', notes: { cue: 'Section change.', script: 'Finally, what needs a phone call, and a checklist for reading these studies.' } },
+{ type: 'section', num: '7', t: 'Urgent Findings and Checklist', notes: { cue: 'Section change.', script: 'Finally, what needs a phone call, and a checklist for reading these studies.' } },
 
 { type: 'text', t: 'Findings Needing Urgent Communication', lines: [
   'Atlanto-occipital **dislocation** or joint widening',
@@ -90,7 +90,10 @@ module.exports = [
   'Deliganis AV, Baxter AB, Hanson JA, Fisher DJ, Cohen WA, Wilson AJ, Mann FA. Radiologic spectrum of craniocervical distraction injuries. RadioGraphics. 2000;20:S237–S250. Erratum: RadioGraphics. 2001;21(2):520.',
   'Goel A. Basilar invagination, Chiari malformation, syringomyelia: a review. Neurol India. 2009;57(3):235–246. doi:10.4103/0028-3886.53260',
   'Teegala R, Kumar P, Kale SS, Sharma BS. Craniovertebral junction tuberculosis: a new comprehensive therapeutic strategy. Neurosurgery. 2008;63:946–955.',
-  'Dlouhy BJ, Policeni BA, Menezes AH. Reduction of atlantoaxial dislocation prevented by pathological position of the transverse ligament in fixed, irreducible os odontoideum: operative illustrations and radiographic correlates in 41 patients. J Neurosurg Spine. 2017;27(1):20–28.'],
+  'Dlouhy BJ, Policeni BA, Menezes AH. Reduction of atlantoaxial dislocation prevented by pathological position of the transverse ligament in fixed, irreducible os odontoideum: operative illustrations and radiographic correlates in 41 patients. J Neurosurg Spine. 2017;27(1):20–28.',
+  'Osborn AG, Linscott LL, Salzman KL. Posterior fossa malformations. In: Osborn’s Brain: Imaging, Pathology, and Anatomy. 3rd ed. Elsevier.',
+  'Osborn AG. Essentials of Osborn’s Brain: A Fundamental Guide for Residents and Fellows. 1st ed. Elsevier; 2020.',
+  'Nadgir R, Lin D, Yousem DM, eds. Congenital anomalies of the central nervous system. In: Neuroradiology: The Core Requisites. 5th ed. Elsevier; 2025.'],
   notes: { cue: 'Do not read out.', script: 'Additional journal sources used for the trauma intervals, Goel groups, tuberculosis grading and irreducible os odontoideum.',
     source: 'Citation details checked against the article PDFs (authors, journal, volume, pages and DOI as printed on each first page).' } },
 
